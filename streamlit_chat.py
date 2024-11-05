@@ -30,6 +30,9 @@ for doc in document_data:
         key = (doc['filename'], section['title'])
         document_dict[key] = section['content']
 
+# Define a threshold for minimum similarity
+SIMILARITY_THRESHOLD = 0.3  # Adjust this value based on experimentation
+
 def get_embedding(text, model="text-embedding-3-small"):
     if not isinstance(text, str) or not text.strip():
         st.warning("Invalid or empty text input detected.")
@@ -57,6 +60,11 @@ def get_response(user_query):
     # Find the indices of the top 3 most similar documents
     top_indices = similarities.nlargest(3).index
 
+    # Check if the top similarity score meets the threshold
+    if similarities.iloc[top_indices[0]] < SIMILARITY_THRESHOLD:
+        # If the highest similarity is below the threshold, return a default response
+        return "Ich weiß es nicht.", None  # None indicates no references
+
     # Collect context from the top 3 documents and track references
     context = ""
     references = []  # List to store references
@@ -74,7 +82,7 @@ def get_response(user_query):
             response = client.chat.completions.create(
                 model="gpt-3.5-turbo",
                 messages=[
-                    {"role": "system", "content": "Du bist ein Assistent, der Fragen zu Dokumenten detailliert und professionell anhand des untenstehenden Kontextes beantwortet. Sollte die Frage aufgrund des Kontextes nicht beantwortet werden können, antworte bitte mit \"Ich weiss es nicht.\""},
+                    {"role": "system", "content": "Du bist ein Assistent, der Fragen zu Dokumenten detailliert und professionell anhand des untenstehenden Kontextes beantwortet. Sollte die Frage aufgrund des Kontextes nicht beantwortet werden können, antworte bitte mit \"Ich weiß es nicht.\""},
                     {"role": "user", "content": f"Kontext: {context}\n\nFrage: {user_query}\nAntwort:"}
                 ],
                 temperature=0,
@@ -102,8 +110,11 @@ if user_query:
     st.write("### Antwort:")
     st.write(response)
     
-    # Display references
+    # Display references or an unrelated message if no references
     if references:
         st.write("### Quellenangaben:")
         for ref in references:
             st.write(f"- **Datei**: {ref['filename']} | **Titel**: {ref['title']}")
+    else:
+        st.write("### Hinweis:")
+        st.write("Die Frage scheint nicht im Zusammenhang mit den Inhalten der Wissensdatenbank zu stehen.")
