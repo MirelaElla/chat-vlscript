@@ -1,10 +1,7 @@
 # Vorlesungsskript Chat
 Make embeddings from documents and ask questions about contents
 
-<video width="600" controls>
-  <source src="https://github.com/MirelaElla/chat-vlscript/assets/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Demo Video](assets/demo.gif)
 
 
 ## About the project
