@@ -1,0 +1,13 @@
+*.Rproj.user
+*.Rhistory
+*.RData
+*.Ruserdata
+venv/
+.env*
+__pycache__/
+
+# following documents are not open access
+QuartoFiles/
+embeddings.csv
+document.json
+
