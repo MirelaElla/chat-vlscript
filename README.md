@@ -22,17 +22,16 @@ This project is about creating a knowledge base and chatting about these content
 * Was ist die Reihenfolge der Planeten in unserem Sonnensystem?
 
 ## Detailed description of the chat components
-### QuartoParser
-This folder contains a script for parsing and cleaning contents from Quarto files and save it in a json file
-* `parse.py` parses and cleans contents from Quarto files in the subfolder "QuartoFiles" and saves it as `document.json`. This file is then used for embedding (see `embed.py`).
+### 1. Parse Quarto files
+* `parseQuarto.py` parses and cleans contents from Quarto files in the subfolder "QuartoFiles" and saves it as `document.json`. This file is then used for embedding (see `embed.py`).
 
-### `embed.py`
-* Loads environment variables and initializes the OpenAI client with the API key.
+### 2. Create embeddings
+* `embed.py` loads environment variables and initializes the OpenAI client with the API key.
 * Loads document data from a JSON file.
 * Computes embeddings for each section of the documents and stores them in a CSV file. This file is then used for chatting (see `chat.py`)
 
-### `chat.py`
-* Loads environment variables and initializes the OpenAI client.
+### 3. Start chatting
+* `chat.py` loads environment variables and initializes the OpenAI client.
 * Loads a CSV file containing embeddings.
 * Converts string embeddings back to NumPy arrays.
 * Loads document data from a JSON file and creates a dictionary for quick access.
@@ -40,6 +39,6 @@ This folder contains a script for parsing and cleaning contents from Quarto file
 * Defines a chat_with_document_base function to handle user queries by computing embeddings and finding the closest match in the document base.
 
 ## Next steps
-- [ ] Create a GUI. Shiny app works, but there seems to be no way to upload it on the shiny app server without sharing the OpenAI API key.
+- [ ] Create a frontend
 - [ ] Fix problems related to Swiss German 
 
