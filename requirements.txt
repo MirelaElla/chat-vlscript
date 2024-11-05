@@ -2,7 +2,9 @@
 #C:\\ProgramData\\anaconda3\\Scripts\\activate.bat C:\\ProgramData\\anaconda3
 #anaconda: conda activate myshinyenv_20240513
 # pip install -r requirements.txt
+#python==3.11.10
 openai 
 pandas 
 numpy 
 python-dotenv
+streamlit

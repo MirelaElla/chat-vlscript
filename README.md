@@ -1,4 +1,4 @@
-# chat-with-docs
+# Vorlesungsskript Chat
 Make embeddings from documents and ask questions about contents
 
 ## About the project
@@ -30,7 +30,7 @@ This project is about creating a knowledge base and chatting about these content
 * Loads document data from a JSON file.
 * Computes embeddings for each section of the documents and stores them in a CSV file. This file is then used for chatting (see `chat.py`)
 
-### 3. Start chatting
+### 3. Start chatting (in terminal)
 * `chat.py` loads environment variables and initializes the OpenAI client.
 * Loads a CSV file containing embeddings.
 * Converts string embeddings back to NumPy arrays.
@@ -38,7 +38,11 @@ This project is about creating a knowledge base and chatting about these content
 * Defines a function to get embeddings from the OpenAI API.
 * Defines a chat_with_document_base function to handle user queries by computing embeddings and finding the closest match in the document base.
 
+### 3. Start chatting (on localhost)
+* enter in terminal: streamlit run `streamlit_chat.py`
+
 ## Next steps
-- [ ] Create a frontend
+- [x] Create a frontend
+- [ ] use vector DB and indexing for faster performance
 - [ ] Fix problems related to Swiss German 
 
