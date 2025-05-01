@@ -9,7 +9,10 @@ This project is about creating a knowledge base and chatting about these content
 
 ## Getting started
 * You need an OpenAI API key saved in the ".env" file (OPENAI_API_KEY = "your-key-comes-here"). The .env file is git-ignored.
-* To install all required packages you can run the command in the cmd terminal `pip install -r requirements.txt`
+* Create environment in cmd terminal (if not done yet): `python -m venv venv`
+* Activate environment (on Windows): `venv\Scripts\activate`
+* To install all required packages run `pip install -r requirements.txt`
+* (To save the current packages: `pip freeze > requirements.txt`)
 * Then run the command in cmd terminal `python chat.py`. You can ask questions in the terminal about the embedded document (see example questions below). The chat returns relevant passages of the embedded documents. Based on this context, the chat then generates an answer. It should only answer when the question is related to the content of the embedded documents. Otherwise it should answer "Ich weiss es nicht." (I don't know). You can test this with trick questions (see an example below)
 
 ### Example questions:
@@ -42,7 +45,7 @@ This project is about creating a knowledge base and chatting about these content
 * Defines a chat_with_document_base function to handle user queries by computing embeddings and finding the closest match in the document base.
 
 ### 3. Start chatting (on localhost)
-* enter in terminal: streamlit run `streamlit_chat.py`
+* enter in terminal: `streamlit run streamlit_chat.py`
 
 ## Next steps
 - [x] Create a frontend
