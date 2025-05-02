@@ -5,7 +5,7 @@ Make embeddings from documents and ask questions about contents
 
 
 ## About the project
-This project is about creating a knowledge base and chatting about these contents to get fast and precise answers to questions related to these contents. Currently, the knowledge base consists of the book "Wissenschaftliches Arbeiten und Kommunizieren" by Nicolas Rothen and Alodie Rey-Mermet ([the Bitbucket project](https://bitbucket.org/nrothen/vorlesungsskript_m01_fs2021_wissarb/src/master/)).
+This project is about creating a knowledge base and chatting about these contents to get fast and precise answers to questions related to these contents. Currently, the knowledge base consists of the book ["Wissenschaftliches Arbeiten und Kommunizieren"](https://wissarbkom.bitbucket.io/) by Nicolas Rothen and Alodie Rey-Mermet.
 
 ## Getting started
 * You need an OpenAI API key saved in the ".env" file (OPENAI_API_KEY = "your-key-comes-here"). The .env file is git-ignored.
