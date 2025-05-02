@@ -8,6 +8,6 @@ __pycache__/
 
 # following documents are not open access
 QuartoFiles/
-embeddings.csv
-document.json
+#embeddings.csv
+#document.json
 
