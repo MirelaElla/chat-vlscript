@@ -63,7 +63,7 @@ def get_response(user_query):
     # Check if the top similarity score meets the threshold
     if similarities.iloc[top_indices[0]] < SIMILARITY_THRESHOLD:
         # If the highest similarity is below the threshold, return a default response
-        return "Ich weiß es nicht.", None  # None indicates no references
+        return "--", None  # None indicates no references
 
     # Collect context from the top 3 documents and track references
     context = ""
@@ -82,7 +82,7 @@ def get_response(user_query):
             response = client.chat.completions.create(
                 model="gpt-3.5-turbo",
                 messages=[
-                    {"role": "system", "content": "Du bist ein Assistent, der Fragen zu Dokumenten detailliert und professionell anhand des untenstehenden Kontextes beantwortet. Sollte die Frage aufgrund des Kontextes nicht beantwortet werden können, antworte bitte mit \"Ich weiß es nicht.\""},
+                    {"role": "system", "content": "Du bist ein Assistent, der Fragen zu Dokumenten detailliert und professionell anhand des untenstehenden Kontextes beantwortet. Sollte die Frage aufgrund des Kontextes nicht beantwortet werden können, antworte bitte mit \"Deine Frage scheint nicht Teil der Wissensdatenbank zu sein. Frage etwas zum Thema wissenschaftliches Arbeiten und Kommunizieren.\""},
                     {"role": "user", "content": f"Kontext: {context}\n\nFrage: {user_query}\nAntwort:"}
                 ],
                 temperature=0,
@@ -101,10 +101,30 @@ def get_response(user_query):
         return "Not enough content to generate a response.", references
 
 # Streamlit UI
-st.title("Wissenschaftliches Arbeiten und Kommunizieren")
+st.image("assets/Unidistance_Logo_couleur_RVB.png", width=200) # Display logo
+st.markdown("""
+*This is a digital reference tool for a psychology methods course, providing quick access to key information from the official textbook.*
+""")
+st.markdown("### ✍️ Wissenschaftliches Arbeiten und Kommunizieren")
+st.markdown("""
+Erhalte KI-gestützte Antworten auf Fragen zum wissenschaftlichen Arbeiten und Kommunizieren – 
+basierend auf dem offiziellen [Lehrbuch](https://wissarbkom.bitbucket.io/) des Psychologischen Instituts der Fernuni/UniDistance Schweiz.
+""")
+
+# Usage instructions
+st.markdown("#### 🔍 So funktioniert es:")
+st.markdown("""
+Gib eine konkrete Frage zum wissenschaftlichen Arbeiten in das Textfeld ein – z. B. zur Literaturrecherche, Zitierweise oder zur Gliederung wissenschaftlicher Arbeiten.  
+Das System durchsucht das Lehrbuch und liefert dir eine präzise Antwort samt Quellenangabe.  
+Wenn die Frage nicht im Buch behandelt wird, erhältst du eine entsprechende Rückmeldung.
+""")
 
 # User input for the query
-user_query = st.text_input("Gib deine Frage ein:")
+user_query = st.text_input(
+    "Gib deine Frage ein:",
+    placeholder="z. B. Was sind die Abschnitte in einer wissenschaftlichen Arbeit?"
+)
+
 if user_query:
     response, references = get_response(user_query)  # Get response and references
     st.write("### Antwort:")
@@ -117,4 +137,4 @@ if user_query:
             st.write(f"- **Datei**: {ref['filename']} | **Titel**: {ref['title']}")
     else:
         st.write("### Hinweis:")
-        st.write("Die Frage scheint nicht im Zusammenhang mit den Inhalten der Wissensdatenbank zu stehen.")
+        st.write("Die Frage scheint nicht im Zusammenhang mit den Inhalten der Wissensdatenbank zu stehen. Frage etwas zum Thema wissenschaftliches Arbeiten und Kommunizieren.")
