@@ -105,7 +105,7 @@ st.image("assets/Unidistance_Logo_couleur_RVB.png", width=200) # Display logo
 st.markdown("""
 *This is a digital reference tool for a psychology methods course, providing quick access to key information from the official textbook.*
 """)
-st.markdown("### ✍️TEST Wissenschaftliches Arbeiten und Kommunizieren")
+st.markdown("### ✍️ Wissenschaftliches Arbeiten und Kommunizieren")
 st.markdown("""
 Erhalte KI-gestützte Antworten auf Fragen zum wissenschaftlichen Arbeiten und Kommunizieren – 
 basierend auf dem offiziellen [Lehrbuch](https://wissarbkom.bitbucket.io/) des Psychologischen Instituts der Fernuni/UniDistance Schweiz.
