@@ -4,8 +4,8 @@ from numpy.linalg import norm
 from dotenv import load_dotenv
 import os
 from openai import OpenAI
-import json
 import streamlit as st
+import ast
 
 # Load environment variables
 load_dotenv()
@@ -17,19 +17,7 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 df = pd.read_csv('embeddings.csv')
 
 # Convert string back to numpy arrays in the 'embedding' column
-df['embedding'] = df['embedding'].apply(eval).apply(np.array)
-
-# Load JSON data from file
-with open('document.json', 'r', encoding='utf-8') as file:
-    document_data = json.load(file)
-
-# Convert JSON data into a dictionary for quick access
-document_dict = {}
-for doc in document_data:
-    for section in doc['sections']:
-        key = (doc['filename'], section['title'])
-        document_dict[key] = section  # Store the entire section dictionary, including weblink
-
+df['embedding'] = df['embedding'].apply(ast.literal_eval).apply(np.array)
 
 # Define a threshold for minimum similarity
 SIMILARITY_THRESHOLD = 0.3  # Adjust this value based on experimentation
@@ -70,17 +58,17 @@ def get_response(user_query):
     context = ""
     references = []  # List to store references
     for index in top_indices:
-        filename = df.iloc[index]['filename']
-        section_title = df.iloc[index]['section_title']
-        content_key = (filename, section_title)
-        if content_key in document_dict:
-            context += document_dict[content_key]['content'] + " \n\n"
-            section = document_dict[content_key]
-            references.append({
-                "filename": filename,
-                "title": section_title,
-                "weblink": section.get("weblink", "")
-            }) 
+        row = df.iloc[index]
+        content = row['content']
+        section_title = row['callout_title'] if pd.notna(row['callout_title']) and row['callout_title'].strip() else row['section_title']
+        weblink = row.get("weblink", "")
+
+        context += content + "\n\n"
+        references.append({
+            "filename": row['filename'],
+            "title": section_title,
+            "weblink": weblink
+        })
 
     # Generate response using OpenAI's LLM
     if context.strip():
@@ -145,7 +133,6 @@ if user_query:
                 st.markdown(f"- [{link_text}]({ref['weblink']})", unsafe_allow_html=True)
             else:
                 st.write(f"- **Datei**: {ref['filename']} | **Titel**: {ref['title']}")
-
     else:
         st.write("### Hinweis:")
         st.write("Die Frage scheint nicht im Zusammenhang mit den Inhalten der Wissensdatenbank zu stehen. Frage etwas zum Thema wissenschaftliches Arbeiten und Kommunizieren.")

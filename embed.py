@@ -37,6 +37,7 @@ for doc in documents:
         section_title = section.get("title", "")
         section_content = section.get("content", "")
         section_level = section.get("level", 1)
+        section_weblink = section.get("weblink", "")
         
         if section_content.strip():
             records.append({
@@ -46,7 +47,8 @@ for doc in documents:
                 "callout_type": "",
                 "callout_title": "",
                 "content": section_content,
-                "level": section_level
+                "level": section_level,
+                "weblink": section_weblink
             })
 
         # Process callouts
@@ -62,7 +64,8 @@ for doc in documents:
                     "callout_type": callout_type,
                     "callout_title": callout_title,
                     "content": callout_content,
-                    "level": section_level
+                    "level": section_level,
+                    "weblink": section_weblink
                 })
 
 # Embed and collect results
@@ -74,7 +77,8 @@ data = {
     "callout_title": [],
     "level": [],
     "content": [],
-    "embedding": []
+    "embedding": [],
+    "weblink": []
 }
 
 for record in records:
@@ -89,6 +93,7 @@ for record in records:
     data["level"].append(record["level"])
     data["content"].append(record["content"])
     data["embedding"].append(str(list(emb)))
+    data["weblink"].append(record["weblink"])
 
 # Save to DataFrame
 df = pd.DataFrame(data)
