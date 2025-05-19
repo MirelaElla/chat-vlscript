@@ -108,7 +108,7 @@ st.markdown("""
 st.markdown("### ✍️ Wissenschaftliches Arbeiten und Kommunizieren")
 st.markdown("""
 Erhalte KI-gestützte Antworten auf Fragen zum wissenschaftlichen Arbeiten und Kommunizieren – 
-basierend auf dem offiziellen [Lehrbuch](https://wissarbkom.bitbucket.io/) des Psychologischen Instituts der Fernuni/UniDistance Schweiz.
+basierend auf dem offiziellen [Lehrbuch](https://wissarbkom.bitbucket.io/) der Fakultät für Psychologie der Fernuni/UniDistance Schweiz.
 """)
 
 # Usage instructions

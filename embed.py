@@ -3,7 +3,6 @@ import os
 import json
 import pandas as pd
 import numpy as np
-import re
 from openai import OpenAI
 
 # Load environment variables
@@ -15,42 +14,83 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 def get_embedding(text, model="text-embedding-3-small"):
     if not isinstance(text, str) or not text.strip():
         print("Invalid or empty text input detected, returning zero vector.")
-        return np.zeros(1536)  # Return a zero vector for invalid input
+        return np.zeros(1536)  # Return zero vector for invalid input
     text = text.replace("\n", " ")  # Normalize newlines
     try:
         response = client.embeddings.create(input=[text], model=model)
-        response_dict = response.to_dict()  # Convert the response object to a dictionary
-        embedding_vector = response_dict['data'][0]['embedding']
-        return embedding_vector
+        response_dict = response.to_dict()
+        return response_dict['data'][0]['embedding']
     except Exception as e:
-        print(f"An error occurred: {e}")
-        return np.zeros(1536)  # Return a zero vector if there's an error
+        print(f"An error occurred during embedding: {e}")
+        return np.zeros(1536)
 
-
-# Load JSON data from file
+# Load parsed JSON structure
 with open('document.json', 'r', encoding='utf-8') as file:
     documents = json.load(file)
 
-# Extract contents for embedding
+# Collect embedding records
+records = []
+
+for doc in documents:
+    filename = doc["filename"]
+    for section in doc["sections"]:
+        section_title = section.get("title", "")
+        section_content = section.get("content", "")
+        section_level = section.get("level", 1)
+        
+        if section_content.strip():
+            records.append({
+                "filename": filename,
+                "source_type": "section",
+                "section_title": section_title,
+                "callout_type": "",
+                "callout_title": "",
+                "content": section_content,
+                "level": section_level
+            })
+
+        # Process callouts
+        for callout in section.get("callouts", []):
+            callout_type = callout.get("type", "")
+            callout_title = callout.get("title", "")
+            callout_content = callout.get("content", "")
+            if callout_content.strip():
+                records.append({
+                    "filename": filename,
+                    "source_type": "callout",
+                    "section_title": section_title,
+                    "callout_type": callout_type,
+                    "callout_title": callout_title,
+                    "content": callout_content,
+                    "level": section_level
+                })
+
+# Embed and collect results
 data = {
-    'filename': [],
-    'section_title': [],
-    'embedding': []
+    "filename": [],
+    "source_type": [],
+    "section_title": [],
+    "callout_type": [],
+    "callout_title": [],
+    "level": [],
+    "content": [],
+    "embedding": []
 }
 
-for document in documents:
-    for section in document['sections']:
-        content = section['content']
-        if isinstance(content, str):  # Check if content is a string
-            embedding = get_embedding(content)
-            data['filename'].append(document['filename'])
-            data['section_title'].append(section['title'])
-            data['embedding'].append(str(list(embedding)))  # Convert embedding to string for storage
-        else:
-            print(f"Ignored non-string content in {document['filename']} under the title '{section['title']}'")
+for record in records:
+    text_to_embed = f"{record['callout_title'] or record['section_title']}. {record['content']}"
+    emb = get_embedding(text_to_embed)
 
-# Create DataFrame
+    data["filename"].append(record["filename"])
+    data["source_type"].append(record["source_type"])
+    data["section_title"].append(record["section_title"])
+    data["callout_type"].append(record["callout_type"])
+    data["callout_title"].append(record["callout_title"])
+    data["level"].append(record["level"])
+    data["content"].append(record["content"])
+    data["embedding"].append(str(list(emb)))
+
+# Save to DataFrame
 df = pd.DataFrame(data)
-
-# Save to CSV
-df.to_csv('embeddings.csv', index=False)
+df.to_csv("embeddings.csv", index=False)
+print("Embeddings saved to embeddings.csv")
