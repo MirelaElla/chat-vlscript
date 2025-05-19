@@ -22,13 +22,15 @@
             "title": "Psychologische Forschung: Eine kollaborative Tätigkeit",
             "content": "Heutzutage ist psychologische Grundlagenforschung eine kollaborative Tätigkeit. Das Bild des einsamen Forschers bzw. der einsamen Forscherin im stillen Kämmerchen ist längst überholt. Deswegen basieren experimentelle Übungen, forschungsorientierte Praktika und Lehrveranstaltungen zur Vermittlung wissenschaftlicher Praktiken oft auf Gruppenarbeiten. Wie im realen Forschungsbetrieb soll in Gruppenarbeit der wissenschaftliche Diskurs und die Stärken der einzelnen Gruppenmitglieder genutzt werden, um das Optimum im Rahmen des Forschungsvorhabens zu erreichen (z.B. ein Gruppenmitglied ist in einem Verein und hat deswegen leichten Zugang zu Versuchspersonen, ein anderes Gruppenmitglied kennt sich gut mit Statistik aus und übernimmt deswegen die Hauptverantwortung bei den statistischen Analysen, ein weiteres Gruppenmitglied kann sich sehr gut schriftlich ausdrücken und übernimmt deswegen die Hauptverantwortung beim Schreiben."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/01-introduction.html"
       },
       {
         "title": "Weiterführende Literatur",
         "level": 2,
         "content": "In diesem Lehrbuch werden die wichtigsten Aspekte wissenschaftlichen Arbeitens und Kommunizierens vermittelt. Zur Vertiefung werden folgende Quellen empfohlen: 1. American Psychological Association (2020). Publication Manual of the American Psychological Association (7th ed.): 2. Discovering Statistics: [https://www.discoveringstatistics.com/books/an-adventure-in-statistics](https://www.discoveringstatistics.com/books/an-adventure-in-statistics/) 3. Research and Citation: 4. Journal Article Reporting Standards: 5. APA Style Blog: 6. Sample Papers and Templates:",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/01-introduction.html#weiterf%C3%BChrende-literatur"
       }
     ]
   },
@@ -60,7 +62,8 @@
             "title": "Reproduzierbarkeit und Replizierbarkeit",
             "content": "Das Ziel des Forschungsprozesses ist es, wissenschaftliche Erkenntnisse zu gewinnen, welche auf gültigen (validen) und zuverlässigen (reliablen) Forschungsresultaten basieren. Valide und reliable Forschungsresultate sind reproduzierbar und replizierbar. Mit **Reproduzierbarkeit** ist gemeint, dass die wiederholte Analyse eines Datensatzes immer zu den gleichen Resultaten führt. Mit **Replizierbarkeit** ist gemeint, dass eine unabhängige Wiederholung einer Studie zu den gleichen Befunden führt. Demzufolge sind replizierbare und reproduzierbare Befunde der Grundbaustein guter Forschung. Wenn Befunde nicht reproduziert und / oder repliziert werden können, ist deren Nutzen unklar."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/02-researchprocess.html"
       }
     ]
   },
@@ -71,7 +74,8 @@
         "title": "Literatur",
         "level": 1,
         "content": "Die Literaturrecherche sowie die Integration der relevanten Befunde und deren Synthese ist ein wichtiger Bestandteil des Forschungsprozesses. Mit einer sorgfältigen und systematischen Literaturrecherche können grosse Mengen von dokumentiertem Wissen verarbeitet werden. Dabei wird ersichtlich, wo in einem bestimmten Forschungsbereich noch Forschungslücken bestehen, die zu beforschen es sich lohnt. Dieses Kapitel befasst sich mit verschiedenen Aspekten, welche eine effiziente Verarbeitung von Fachliteratur und die Interpretation grosser Informationsmengen unterstützen. In diesem Kapitel wird zuerst einen Überblick über verschiedene Artikeltypen und -versionen gegeben. Anschliessend geht dieses Kapitel auf die Literatursuche, -zugang und -verwaltung ein. Am Schluss geben wir eine Liste von Zeitschriften der kognitiven Psychologie, die bei der Literatursuche hilfreich sein kann.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/03-literature.html"
       },
       {
         "title": "Wissenschaftliche Artikel",
@@ -83,7 +87,8 @@
             "title": "Richtlinien für Autorenschaften",
             "content": "Damit eine Person als Autor bzw. Autorin auf einer wissenschaftlichen Arbeit (z.B. Artikel, Vortrag oder Poster) genannt wird, muss sie einen **substanziellen kreativen** Beitrag an der Studie geleistet haben. Ein Betrag ist **substanziell**, wenn ohne diesen Beitrag die Durchführung und Publikation der Studie nicht möglich gewesen wäre. Ein Beitrag ist dann **kreativ**, wenn etwas Neues geschaffen wird, das über die blosse Ausführung einer Aufgabe hinaus geht. Das Verfassen eines Auswertungsskripts zur statistischen Analyse, welche zu einem tieferen Verständnis der Datenlage führt, gilt in diesem Sinne als substanziell und kreativ. Das Testen von 100 Versuchspersonen mag zwar substanziell sein, ist aber nicht kreativ. Dies liegt darin begründet, da es sich beim Testen um die blosse Ausführung eines Auftrages nach vorgegebenem Protokoll handelt, ohne dass in kreativer Hinsicht etwas Neues geschaffen wird. Dementsprechend dokumentiert eine Autorenschaft auf einer wissenschaftlichen Arbeit den Anspruch auf geistiges Eigentum. Verschiedene Wissenschaftszweige haben unterschiedliche Konventionen, was die Autorenreihenfolge auf einer wissenschaftlichen Arbeit betrifft. Während in der Ökonomie die Autorenreihenfolge oft alphabetisch determiniert ist, wird die Autorenreihenfolge in der psychologischen Literatur hauptsächlich durch den Beitrag der einzelnen Personen bestimmt. In absteigender Reihenfolge werden die Personen zuerst aufgelistet, welche den grössten Beitrag geleistet haben. Ausnahme bildet die letzte Position in der Auflistung der Autorinnen und Autoren. Diese Position obliegt der Leitung der Forschungsgruppe, insofern die leitende Person nicht gleichzeitig den grössten Beitrag geleistet hat und somit als erstes aufgelistet ist. Unabhängig von ihrer Position in der Auflistung müssen alle Autorinnen und Autoren mit den Inhalten der entsprechenden Arbeit vertraut und einverstanden sein. Eine Konsequenz davon ist, dass alle Autorinnen und Autoren einer Arbeit die Verantwortung für den Inhalt dieser Arbeit übernehmen und auch haftbar dafür sind."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/03-literature.html#litsciarticle"
       },
       {
         "title": "Artikeltypen",
@@ -95,7 +100,8 @@
             "title": "Effizientes Lesen",
             "content": "Die verschiedenen wissenschaftlichen Fachartikel sind grundsätzlich immer gleich aufgebaut. Dieser Umstand ist dann sehr hilfreich, wenn man Literatur möglichst effizient verarbeiten möchte. Um die Informationen in wissenschaftlichen Fachartikeln möglichst effizient zu verarbeiten, helfen die folgenden vier Fragen: 1. Wie lautet die **Forschungsfrage**? 2. Wie wurde die Forschungsfrage operationalisiert (**Methode**)? 3. Was zeigen die **Resultate** (Hauptbefund)? 4. Was ist der **Erkenntnisgewinn** (Interpretation der Resultate)? Beim schriftlichen Beantworten der vier Fragen pro Artikel sollte man sich auf maximal eine A4 Seite beschränken. Dies ermöglicht es, einen konzisen Überblick über die gelesenen Artikel zu behalten."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/03-literature.html#atn"
       },
       {
         "title": "Artikelversionen",
@@ -112,13 +118,15 @@
             "title": "Manuskript vs. Artikel",
             "content": "Es ist wichtig, zwischen dem Manuskript, das bei der Zeitschrift zur Publikation eingereicht wird, und dem in der Forschungszeitschrift publizierten Artikel zu unterscheiden. Jeder Verlag und oftmals jede Zeitschrift eines Verlags haben für die publizierten Artikel ihre eigene Gestaltung. Beispielsweise drucken einige Zeitschriften ihre Artikel in zwei Spalten pro Seite andere wiederum in nur einer Spalte pro Seite. Diese Gestaltung des Artikels obliegt dem Verlag einer Zeitschrift und ist **keinesfalls** Sache der Autoren."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/03-literature.html#avp"
       },
       {
         "title": "Literatursuche",
         "level": 3,
         "content": "Es war nie einfacher als in der heutigen Zeit, an wissenschaftliche Literatur zu gelangen. Wissenschaftliche Literatur kann ganz einfach wie folgt gesucht werden: - Literatursuche nach Stichworten im Internet, zum Beispiel mit der Hilfe von: - [Pubmed](https://pubmed.ncbi.nlm.nih.gov/advanced/): Meta-Datenbank mit Referenzen auf wissenschaftliche Dokumente in den Bereichen der Medizin, Pharmazie, Psychologie, Biologie, Genetik usw. - [Google Scholar](https://scholar.google.com/): Suchmaschine von Google zur Suche wissenschaftlicher Dokumente. - [JSTOR](https://www.jstor.org/): digitale Bibliothek, die Zugang zu mehr als 12 Millionen Zeitschriftenartikeln, Büchern, Bildern und Primärquellen in 75 Disziplinen bietet. - [Scopus](https://www.scopus.com/): Abstract- und Zitationsdatenbank für begutachtete Literatur, einschliesslich wissenschaftlicher Zeitschriften, Bücher und Konferenzberichte. Diese Ressource ist *kostenpflichtig*. - Suche nach Publikationen auf der Webseite der Autorinnen und Autoren. Fast alle Autorinnen und Autoren habe eine mehr oder weniger aktuelle Liste ihrer Publikationen auf ihrer institutionellen Webseite oder einer persönlichen Webseite. Wenn man eine interessante Studie gelesen hat, kann es Sinn machen die Webseite der Autorin bzw. des Autors mit einer der üblichen Suchmaschinen im Internet zu suchen, um weitere relevante Publikationen zu finden. - Suche im Literaturverzeichnis der Studien, die bereits gelesen wurden. Oftmals findet man im Literaturverzeichnis bereits gelesener relevanter Studien weitere relevante Artikel, die man eventuell noch nicht kannte.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/03-literature.html#literaturesearch"
       },
       {
         "title": "Literaturzugang",
@@ -130,7 +138,8 @@
             "title": "Weitere Lösungen für den Zugang zu kostenpflichtigen Ressourcen",
             "content": "Einige Universitäten bieten alternative Lösungen an. Zum Beispiel hat die FernUni Schweiz viele kostenpflichtige psychologische Fachzeitschriften abonniert. Zugang erhalten die Studierenden über die Seite von [Swissconsortium](https://www.swissconsortium.ch/sc/registerprepare)."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/03-literature.html#literaturzugang"
       },
       {
         "title": "Literaturverwaltung",
@@ -142,13 +151,15 @@
             "title": "Literaturangaben immer selbst überprüfen!",
             "content": "Literaturverwaltungsprogramme haben den Vorteil, dass sie verschiedene Zitationsstile zur Verfügung stellen und entsprechend die Bearbeitung von bibliografischen Angaben und Literaturlisten in wissenschaftlichen Publikationen unterstützen. Somit entfällt das manuelle Formatieren von wissenschaftlichen Referenzen im Text und Literaturverzeichnis einer wissenschaftlichen Arbeit. Nichtsdestotrotz ist es wichtig, dass jeweils alle Literaturangaben (inkl. Literaturverzeichnis) in einer Arbeit überprüft werden. Auch wenn Literaturverwaltungsprogramme sehr gut funktionieren, können vereinzelt Fehler vorkommen. Bei der Fehlerbehebung empfiehlt es sich, zuerst in der Literaturverwaltungssoftware nachzuschauen, ob die zu zitierende Arbeit korrekt mit allen nötigen Angaben erfasst wurde, und diese nötigenfalls manuell zu ergänzen. Sollte sich in der eigenen Bibliothek kein Fehler finden lassen, müssen die entsprechenden Anpassungen manuell im Manuskript vorgenommen werden. Achtung: Bei manuellen Veränderungen im Manuskript können die entsprechenden Referenzen nicht mehr automatisch über die Literaturverwaltungssoftware angepasst werden."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/03-literature.html#refman"
       },
       {
         "title": "Liste von Zeitschriften",
         "level": 2,
         "content": "Originale Forschungsarbeiten werden in vielen psychologischen Fachzeitschriften publiziert. Hier ist eine kurze Liste solcher Zeitschriften im Themenbereich der kognitiven Psychologie, die den Ruf haben, gute Forschung zu publizieren. Die Liste wurde zu grossen Teilen von dieser [Webseite](https://www.crumplab.com/cognition/articles/course_docs/resources.html) übernommen. - Psychonomics Zeitschriften - [Attention, Perception & Psychophysics](https://link.springer.com/journal/13414) - [Behavior Research Methods](https://link.springer.com/journal/13428) - [Cognitive, Affective, & Behavioral Neuroscience](https://link.springer.com/journal/13415) - [Cognitive Research: Principles & Implications](https://cognitiveresearchjournal.springeropen.com/) - [Learning & Behavior](https://link.springer.com/journal/13420) - [Memory & Cognition](https://link.springer.com/journal/13421) - [Psychonomic Bulletin & Review](https://link.springer.com/journal/13423) - APA Zeitschriften - [Canadian Journal of Experimental Psychology](https://www.apa.org/pubs/journals/cep) - [Journal of Applied Research in Memory and Cognition](https://www.apa.org/pubs/journals/mac) - [Journals of Experimental Psychology: General](https://www.apa.org/pubs/journals/xge) - [Journals of Experimental Psychology: Animal Learning and Cognition](https://www.apa.org/pubs/journals/xan) - [Journals of Experimental Psychology: Human, Perception, and Performance](https://www.apa.org/pubs/journals/xhp) - [Journals of Experimental Psychology: Learning, Memory, and Cognition](https://www.apa.org/pubs/journals/xlm) - [Psychology and Aging](https://www.apa.org/pubs/journals/pag/) - [Psychological Review](https://www.apa.org/pubs/journals/rev) - APS Zeitschriften - [Current Directions in Psychological Science](https://www.psychologicalscience.org/publications/current_directions) - [Perspectives on Psychological Science](https://www.psychologicalscience.org/publications/perspectives) - [Psychological Science](https://www.psychologicalscience.org/publications/psychological_science) - [Psychological Science in the Public Interest](https://www.psychologicalscience.org/publications/pspi) - Elsevier Zeitschriften - [Acta Psychologica](https://www.sciencedirect.com/journal/acta-psychologica) - [Cognition](https://www.sciencedirect.com/journal/cognition) - [Cognitive Psychology](https://www.sciencedirect.com/journal/cognitive-psychology) - [Cognitive Science](https://www.sciencedirect.com/journal/cognitive-science) - [Consciousness and Cognition](https://www.sciencedirect.com/journal/consciousness-and-cognition) - [Journal of Memory and Language](https://www.sciencedirect.com/journal/journal-of-memory-and-language) - [NeuroImage](https://www.sciencedirect.com/journal/neuroimage) - [Neuropsychologia](https://www.sciencedirect.com/journal/neuropsychologia) - [Trends in Cognitive Sciences](https://www.sciencedirect.com/journal/trends-in-cognitive-sciences) - Andere Zeitschriften - [Aging, Neuropsychology, and Cognition](https://www.tandfonline.com/journals/nanc20) - [Behavioral and Brain Sciences](https://www.cambridge.org/core/journals/behavioral-and-brain-sciences) - [Cognitive Neuroscience](https://www.tandfonline.com/journals/pcns20) - [Collabra: Psychology](https://online.ucpress.edu/collabra) - [Journal of Cognition](https://journalofcognition.org/) - [Memory](https://www.tandfonline.com/journals/pmem20) - [Nature Human Behavior](https://www.nature.com/nathumbehav/) - [PlosOne](https://journals.plos.org/plosone/) - [Psychological Research](https://link.springer.com/journal/426) - [The Quarterly Journal of Experimental Psychology](https://journals.sagepub.com/home/qjp) - [Scientific Reports](https://www.nature.com/srep/) - [Swiss Psychology Open](https://swisspsychologyopen.com/)",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/03-literature.html#liste-von-zeitschriften"
       }
     ]
   },
@@ -165,31 +176,36 @@
             "title": "Sorgfaltspflicht bei der Datenerhebung",
             "content": "Die Qualität der erhobenen Daten entscheidet darüber, inwieweit eine aussagekräftige Datenanalyse überhaupt erst möglich ist. Darum muss die Datenerhebung mit hoher Sorgfalt durchgeführt werden."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html"
       },
       {
         "title": "Versuchsperson, Versuchsleitung und Projektleitung",
         "level": 2,
         "content": "In diesem Unterkapitel wird erstens auf den Umgang mit Versuchspersonen eingegangen. Dann werden die unterschiedlichen Pflichten behandelt, die mit der Versuchsleitung und Projektleitung assoziiert sind. Die Pflichten von Personen, welche eine indirekte Rolle bei Forschungsprojekten haben (z.B. Personen der Ethikkommission), werden hier nicht behandelt.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html#versuchsperson-versuchsleitung-und-projektleitung"
       },
       {
         "title": "Versuchsperson",
         "level": 3,
         "content": "Gute Forschungspraxis setzt einen *offenen und transparenten* Umgang mit Versuchspersonen voraus. Dies bedingt, dass Versuchspersonen **vor** der Teilnahme an einer Studie über den Inhalt der Studie und ihre Rechte aufgeklärt werden. Zu den Grundrechten einer jeden Versuchsperson gehören die Folgenden: - Die **Freiwilligkeit** der Versuchsteilnahme muss jederzeit gewährleistet sein. Dabei haben die Versuchspersonen das Recht, jederzeit ohne Angabe von Gründen von der Teilnahme an einer Studie zurück zu treten, ohne dass ihnen daraus Nachteile entstehen. - Der **Datenschutz** bzw. die Anonymität der Versuchspersonen muss zu jedem Zeitpunkt gewährleistet sein. Dies betrifft insbesondere das Berichten der Ergebnisse: Studienergebnisse dürfen keinesfalls so berichtet werden, dass einzelne Versuchspersonen identifiziert werden können. Im Folgenden wird erläutert, worauf diese Rechte basieren und wie diese kommuniziert werden. Anschliessend wird auf den Datenschutz eingegangen, da dieser ein zentraler Aspekt jeder Datenerhebung darstellt.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html#versuchsperson"
       },
       {
         "title": "Ethische Richtlinien",
         "level": 4,
         "content": "Jede Studie muss **vor** Beginn der Datenerhebung von einer unabhängigen Ethikkommission geprüft und genehmigt werden. Aufgabe der Ethikkommission ist es, zu überprüfen, ob die Versuchspersonenrechte eingehalten werden und ob die Studie ethisch vertretbar ist (d.h. ob der Nutzen der Studie die Kosten rechtfertigt). Die Kosten-Nutzen-Frage ist keineswegs immer monetärer Natur. Beispielsweise kann es für eine psychologische Studie nötig sein, dass die Versuchspersonen nicht von Anfang an wissen, was das Ziel der Studie ist, um zu verhindern, dass dieses Wissen die Resultate beeinflusst. Die Ethikkommission hat in diesem Fall zu entscheiden, ob der Erkenntnisgewinn der Studie es rechtfertigt, dass die Versuchspersonen erst im Nachhinein über die Details der Studie aufgeklärt werden. Grundsätzlich ist wichtig, dass die Versuchspersonen wissen, was sie im Rahmen der Studie erwartet, und was ihre Rechte sind.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html#ethische-richtlinien"
       },
       {
         "title": "Einverständnis",
         "level": 4,
         "content": "Zu Beginn eines jeden Experiments müssen die Versuchspersonen ihr Einverständnis geben, **nachdem** sie über die Durchführung und die Ziele des Experiments und ihre Rechte aufgeklärt worden sind. Dazu wird in der Regel eine schriftliche Einverständniserklärung eingesetzt. Grundsätzlich geht das Dokument auf folgende Punkte ein: - Eine Beschreibung zum Hintergrund des Experiments - Eine Aufklärung über die Rechte der Versuchsperson (z.B. Möglichkeit des Abbruchs) - Angabe der zuständigen Ethikkommission, welche die Studie überprüft hat - Eine Kontaktperson / -adresse, an die sich die Versuchsperson im Falle von Fragen und Beschwerden wenden kann - Die Aussage, dass allfällige Fragen beantwortet wurden und man über die Rechte als Versuchsperson aufgeklärt wurde - Ein Feld für die Unterschrift der Versuchsperson und ein Feld für die Unterschrift für die Versuchsleitung. Bei Online-Experimenten kann es ausreichend sein, wenn ein entsprechendes Feld «angekreuzt» / markiert wird",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html#einverst%C3%A4ndnis"
       },
       {
         "title": "Datenschutz",
@@ -206,13 +222,15 @@
             "title": "Datenschutz und schriftliche Einverständniserklärung",
             "content": "Die Datenschutzgesetze erfordert nicht in jedem Land eine schriftliche Einverständniserklärung zur Teilnahme an einem Experiment. Auch wenn dies nicht immer gesetzlich vorgeschrieben ist, ist eine solche aufgrund ethischer Richtlinien erforderlich."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html#datenschutz"
       },
       {
         "title": "Versuchsleitung",
         "level": 3,
         "content": "Bei der Versuchsleitung handelt es sich um die Personen, welche mit der Aufgabe der Versuchspersonenrekrutierung und deren Testung betraut sind. Im universitären Umfeld fällt die Aufgabe der Versuchsleitung Studierenden, Promovierenden und Postdoktorierenden zu. Die Pflichten der Versuchsleitung unterscheiden sich je nach Phase der Datenerhebung (d.h. bei der Rekrutierung, vor dem Experiment, während dem Experiment und nach dem Experiment). Diese werden im Folgenden für jede Phase separat aufgelistet.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html#expduties"
       },
       {
         "title": "Bei der Rekrutierung",
@@ -224,19 +242,22 @@
             "title": "Wichtige Informationen für Versuchspersonen",
             "content": "- Allfällige Versuchspersonen müssen auch darüber aufgeklärt werden, dass einige Aufgaben möglicherweise absichtlich schwierig gestaltet wurden. Dies ist notwendig, um die Forschungsfrage des Experiments zu beantworten. - Allfällige Versuchspersonen müssen auch über den Zweck der Aufgaben aufgeklärt werden, die sie durchführen werden. Zum Beispiel sollte klar formuliert werden, wenn die Aufgaben als diagnostische Werkzeuge verwendet werden (z.B. als Intelligenztest). Es sollte aber auch genauso klar informiert werden, wenn die Aufgaben keine diagnostischen Werkzeuge sind. Im letzteren Fall sollte unbedingt klar und deutlich darauf hingewiesen werden, dass die Aufgaben keine sinnvollen Rückschlüsse auf alleinstehende individuelle Leistungen zulassen."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html#bei-der-rekrutierung"
       },
       {
         "title": "Vor dem Experiment",
         "level": 4,
         "content": "- Die Termine für das Experiment mit der Versuchsperson abmachen. - Über die spezifischen Inhalte des Experiments informieren, wie zum Beispiel die Einverständniserklärung und die entsprechenden Rechte sowie experimentspezifische Erfordernisse (z.B. dass Testzeiten zwingend einzuhalten sind). - Sicherstellen, dass die Versuchsperson die Aufgaben gemäss Instruktionen durchführen wird. - Sicherstellen, dass die Versuchsperson sich melden wird, wenn sich Probleme ergeben.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html#vor-dem-experiment"
       },
       {
         "title": "Während dem Experiment",
         "level": 4,
         "content": "- Sicherstellen, dass die **Freiwilligkeit** jederzeit gewährleistet ist. - Sicherstellen, dass die **Datenschutzrichtlinien** jederzeit eingehalten werden. - Den Versuchspersonen während der gesamten Dauer des Experiments jederzeit zur Verfügung stehen (z.B. bei technischen Fragen und Problemen -- gilt insbesondere für Online-Experimente). - Sicherstellen, dass die Versuchspersonen die Instruktionen verstanden haben. - Sicherstellen, dass die Versuchspersonen die Aufgaben gemäss Instruktionen durchführen. - Intervenieren im Fall von technischen Problemen. - Sauberes, klares und vollständiges Dokumentieren der einzelnen Testungen. Zu diesem Zweck wird häufig ein standardisierter Fragebogen zur Protokollierung am Ende jeder Sitzung oder jeder Aufgabe ausgefüllt. - Versuchspersonenbetreuung: Bei der Betreuung geht es vor allem darum, die Versuchsperson darin zu bekräftigen, dass sie die Aufgaben so gut wie möglich löst. Gerade wenn die Aufgaben sehr schwierig sind, muss die Versuchsperson informiert werden, dass die Aufgaben im Sinne des Experiments absichtlich so schwierig sind. Der Versuchsperson soll das Gefühl vermittelt werden, dass ihr Beitrag wirklich hilfreich ist und geschätzt wird, auch wenn die Leistungen bei den Aufgaben nicht perfekt sind.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html#w%C3%A4hrend-dem-experiment"
       },
       {
         "title": "Nach dem Experiment",
@@ -253,7 +274,8 @@
             "title": "Datenqualität ist Versuchsleitungspflicht",
             "content": "Die Versuchsleitung hat eine zentrale Rolle bei der Datenerhebung. Sie ist für die Sorgfalt bei der Datenerhebung zuständig und letztendlich für die Qualität der erhobenen Daten verantwortlich."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html#nach-dem-experiment"
       },
       {
         "title": "Projektleitung",
@@ -270,13 +292,15 @@
             "title": "Eine Person, zwei Rollen",
             "content": "Im Einzelfall kann es vorkommen, dass eine Person mehrere Rollen inne hat. So kann zum Beispiel ein und dieselbe Person Projektleitung und Versuchsleitung sein."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html#projektleitung"
       },
       {
         "title": "Testen von Versuchspersonen",
         "level": 2,
         "content": "Das Testen von Versuchspersonen kann im Labor oder online übers Internet geschehen. Unabhängig davon, ob dieses im Labor oder online stattfindet, hat das Austesten der experimentellen Prozedur eine grosse Bedeutung für die Qualität der zu erhebenden Daten. Dieses sogenannte Pilotieren erlaubt zum Beispiel das Beheben von allfälligen Fehlern in den experimentellen Aufgaben und die Klärung allfälliger Fragen seitens der Versuchsleitung. Darum macht es Sinn, erst nach ausgiebigem Pilotieren mit der eigentlichen Datenerhebung zu beginnen. Entsprechend wird an dieser Stelle zuerst auf das Pilotieren und dann auf das Testen von Versuchspersonen im Labor und online eingegangen.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html#testen-von-versuchspersonen"
       },
       {
         "title": "Pilotieren",
@@ -298,31 +322,36 @@
             "title": "Realistische Fehlerquoten",
             "content": "Trotz sorgfältigem Pilotieren kann es vorkommen, dass es während der Datenerhebung zu technischen Problemen mit den experimentellen Aufgaben kommt. Bei laborbasierten Experimenten ist erfahrungsgemäss mit einer Quote von 1-2% zu rechnen. Bei Online-Experimenten ist erfahrungsgemäss mit einer Quote von 5-10% zu rechnen."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html#pilot"
       },
       {
         "title": "Datenerhebung bei laborbasierten Experimenten",
         "level": 3,
         "content": "Laborbasierte Experimente werden als Goldstandard der psychologischen Forschung betrachtet. Zu Beginn wurden psychologische Experimente mit Papier, Bleistift und Stoppuhr durchgeführt. In der zweiten Hälfte des 20. Jahrhunderts fanden mit der rasanten Entwicklung von Computern diese immer mehr Einzug in die Forschung, was zur einer präziseren Messung geführt hat (z.B. zeitkritische Messungen im Millisekundenbereich). Dazu wurde Software zur computergestützten Datenerhebung entwickelt, mit welcher das Programmieren von Experimenten vereinfacht wurde (z.B. [e-prime](https://pstnet.com/products/e-prime/) und [Psychtoolbox](http://psychtoolbox.org/)).",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html#datenerhebung-bei-laborbasierten-experimenten"
       },
       {
         "title": "Vorteile und Nachteile von laborbasierten Experimenten",
         "level": 4,
         "content": "Der *grösste Vorteil* von laborbasierten Experimenten ist es, **kontrollierte und standardisierte Bedingungen** zu schaffen. Dies kommt dadurch zustande, weil die Hardware- und Software-Bedingungen kontrolliert und ausgetestet werden können (siehe [Pilotieren](#pilot)). Das heisst, es kann sicher gestellt werden, dass es beim Ausführen des Programmcodes zur Reizpräsentation im Rahmen eines Experimentes nicht bzw. sehr selten zu technischen Problemen und Computerabstürzen kommt. Des Weiteren können experimentelle Bedingungen einfacher kontrolliert und standardisiert werden. So kann zum Beispiel eine Kinnstütze verwendet werden, wenn ein bestimmter Augenabstand zum Bildschirm eingehalten werden muss. Zudem können einige komplexere Verfahren wie zum Beispiel die funktionelle Magnetresonanztomographie nur im Labor durchgeführt werden kann. Ein weiterer nicht zu vernachlässigender Vorteil ist, dass die Versuchsleitung im Labor jede Versuchsperson durch das gesamte Experiment begleiten und überwachen kann. Falls nötig kann die Versuchsleitung auch einschreiten. Zum Beispiel kann die Versuchsleitung die Instruktionen wiederholen, wenn die Versuchsperson die Instruktionen nicht verstanden hat. Die Versuchsleitung kann auch gleichzeitig protokollieren, wenn etwas Unerwartetes geschieht. Bei laborbasierten Experimenten kommt ein *weiterer Vorteil* hinzu, nämlich dass die **Versuchspersonen das Experiment relativ selten abbrechen**. Der Grund ist, dass sie bereits den Aufwand auf sich genommen haben, für das Experiment einen bestimmten Ort aufzusuchen, und sich entsprechend vorgängig über den Inhalt des Experiments informiert haben. Allerdings ist **die Orts- und Zeitabhängigkeit** von laborbasierten Experimenten auch deren *grösster Nachteil*. So müssen die Versuchspersonen an einen bestimmten Ort hinkommen und gleichzeitig können nicht beliebig viele Versuchspersonen auf einmal getestet werden. Diese Orts- und Zeitabhängigkeit von laborbasierten Experimenten führt zum *weiteren Nachteil*, dass in deren Rahmen zumeist **keine breiten Zielgruppen** getestet werden, weil diese schwieriger zu erreichen sind als zum Beispiel reine Studierendengruppen.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html#vorteile-und-nachteile-von-laborbasierten-experimenten"
       },
       {
         "title": "Datenerhebung bei Online-Experimenten",
         "level": 3,
         "content": "Online-Experimente werden mehr und mehr im Rahmen psychologischer Forschung durchgeführt. Während dem ersten Jahrzehnt der 2000er Jahre war es noch sehr umständlich Online-Experimente zu programmieren und technisch umzusetzen. Dies war vor allem dann der Fall, wenn Daten zeitkritisch erfasst werden mussten (z.B. zur Erhebung von Reaktionszeiten). Seitdem schnelle Internetzugänge die privaten Haushalte erobert haben, gibt es immer mehr Werkzeuge mit denen ohne grosse Programmierkenntnisse zeitkritische Online-Experimente erstellt werden können (z.B. [lab.js](https://lab.js.org/) und [Psychopy](https://www.psychopy.org/)). Ein entscheidender Punkt bei Online-Experimenten ist es, zu gewährleisten, dass sie zeitkritisch durchgeführt werden können. Zu diesem Zweck wird der Programmcode zur Ausführung des Experiments von einem externen Server auf den Rechner der Versuchsperson heruntergeladen und dort ausgeführt, wobei die Daten dann wieder an der Server versendet werden, wo sie in einer geschützten Datenbank erfasst werden. Oftmals ist das Programm, welches zur Ausführung des Experimentes auf dem lokalen Rechner nötig ist in der Programmiersprache [JavaScript](https://www.javascript.com/) verfasst. JavaScript eignet sich besonders gut für Online-Experimente, weil es sich dabei um eine fundamentale Technologie des Internets handelt. Der grosse Vorteil liegt darin, dass JavaScript praktisch in jedem Internet-Browser ausgeführt werden kann, ohne dass Versuchspersonen zusätzliche Software installieren müssen.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html#datenerhebung-bei-online-experimenten"
       },
       {
         "title": "Vorteile und Nachteile von Online-Experimenten",
         "level": 4,
         "content": "Der *grösste Vorteil* von Online-Experimenten ist die **Reichweite**. Da die Versuchspersonen nicht an einem bestimmten Ort getestet werden müssen, sondern die Experimente bequem von zu Hause durchführen können, hat man mit Online-Experimenten im Gegensatz zu laborbasierten Experimenten eine sehr viel grössere Reichweite. Eine Konsequenz davon ist, dass man in relativ kurzer Zeit sehr viele Leute erreichen und testen kann. Der *grösste Nachteil* von Online-Experimenten ist die **Tatsache, dass die Versuchsleitung bei Online-Experimenten nicht bei den Versuchsdurchführungen anwesend sein kann**. Somit kann die Versuchsleitung nicht überwachen, was die Versuchspersonen im Einzelnen tun. Dies hat zur Konsequenz, dass die Versuchsleitung nicht intervenieren kann, wenn eine Versuchsperson die Instruktionen nicht richtig verstanden hat oder die Instruktionen nicht befolgt. Im Fall von Online-Experimenten hat die Versuchsleitung lediglich die Möglichkeit Ausschlusskriterien zu bestimmen, welche darauf hindeuten, dass das Experiment nicht instruktionsgemäss durchgeführt wurde. Ein Beispiel für ein solches Kriterium ist, die Daten von Versuchspersonen auszuschliessen, wenn sie für das Experiment anderthalb Stunden gebraucht haben, obwohl das Experiment nur eine Stunde dauern würde. Im Idealfall werden die Ausschlusskriterien vor der Datenanalyse festgelegt und werden im Rahmen guter wissenschaftlicher Praxis transparent berichtet. Allerdings ist es nicht immer einfach, aufgrund der gesammelten Daten darauf zu schliessen, ob eine Versuchsperson die Instruktionen befolgt hat oder nicht. Ein *weiterer Nachteil* von Online-Experimenten sind die **Umgebungsbedingungen, die nicht standardisiert und nicht kontrolliert werden können**. Einerseits betrifft dies die Hardware- und Software-Bedingungen und anderseits das Verhalten der Versuchspersonen. Das heisst, dass die Versuchsleitung nicht überwachen kann, dass das Experiment standardisiert durchgeführt wird (z.B. dass der Abstand zum Bildschirm konsistent eingehalten wird). Es gibt zwei Wege, um dieses Problem zu minimieren. Erstens können die Versuchspersonen instruiert werden, Rahmenbedingungen einzuhalten (siehe @tbl-expsetup). Zweitens kann die Versuchsleitung eine ausführliche Nachbefragung der Versuchspersonen vornehmen, indem systematisch gefragt wird, ob bestimmte Aspekte eingehalten wurden. In der Regel antworten die Versuchspersonen ehrlich. Entsprechend können im Anschluss Datensätze von einzelnen Versuchspersonen bei kritischen Versäumnissen ausgeschlossen werden. ```",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html#vorteile-und-nachteile-von-online-experimenten"
       },
       {
         "title": "| tbl-cap: Exemplarische Rahmenbedingungen, die die Versuchspersonen als Instruktionen bekommen können",
@@ -334,13 +363,15 @@
             "title": "Laborbasierte vs. Online-Experimente?",
             "content": "Online-Experimente wie auch laborbasierte Experimente haben jeweils gewisse Vor- und Nachteile, so dass man nicht generell sagen kann, dass eine dieser beiden Möglichkeiten der anderen überlegen ist. Je nach Situation muss abgewogen werden, ob ein Online-Experiment einem laborbasierten Experiment vorzuziehen ist oder nicht. Eine Möglichkeit die Stärken beider Verfahren zu kombinieren, ist die Vorgehensweise eine kleinere Gruppe von Versuchspersonen im Labor zu testen und eine grössere Gruppe von Versuchspersonen mit dem gleichen Experiment online zu testen. Danach können die Resultate der beiden Verfahren verglichen werden. Eine Übereinstimmung der Resultate unterstützt die Aussagekraft des Experiments."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html#tbl-cap-exemplarische-rahmenbedingungen-die-die-versuchspersonen-als-instruktionen-bekommen-k%C3%B6nnen"
       },
       {
         "title": "Besondere Aufgaben der Versuchsleitung bei Online-Experimenten",
         "level": 4,
         "content": "Da es Aufgabe der Versuchsleitung ist, sicherzustellen, dass die Versuchspersonen die Experimente wie instruiert durchführen, kommt der Versuchsleitung bei Online-Experimenten eine besondere Rolle zu. Durch ihre Arbeit und ihr Verhalten kann die Versuchsleitung den Datenverlust, der bei Online-Experimenten in der Regel substanzieller ausfällt, reduzieren. Am besten gelingt dies erfahrungsgemäss, wenn die Versuchsleitung mit den Versuchspersonen vor dem Experiment ein **persönliches Gespräch** führt und ihnen erklärt, wie und warum es wichtig ist, dass die Instruktionen sorgfältig gelesen und ebenso umgesetzt werden. Das persönliche Gespräch kann durchaus telefonisch erfolgen. Ziel dieses Gesprächs ist, eine gewisse Verbindlichkeit beim Einhalten der Instruktionen zu schaffen. Die schriftliche Form ist zu diesem Zweck weniger gut geeignet. Zudem kann der Datenverlust bei Online-Experimenten weiter reduziert werden, wenn die Versuchsleitung den Versuchspersonen für den Fall technischer Probleme während der gesamten Versuchsdurchführung **telefonisch zur Verfügung** steht.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/04-datacollection.html#besondere-aufgaben-der-versuchsleitung-bei-online-experimenten"
       }
     ]
   },
@@ -357,7 +388,8 @@
             "title": "**Deskriptive Statistik vs. Inferenzstatistik**",
             "content": "Die deskriptive Statistik wird auch beschreibende Statistik genannt. Die deskriptive Statistik beschreibt die zentralen Tendenzen (z.B. Mittelwert oder Median) und die Streuung (z.B. Standardabweichung und Standardfehler) der erhobenen Daten. Die Inferenzstatistik wird auch schliessende Statistik genannt. Die Inferenzstatistik bedient sich mathematischer Verfahren, um aufgrund der erhobenen Daten Schlussfolgerungen zur Grundgesamtheit zu machen. Es sollen dabei allgemeingültige Schlussfolgerungen gezogen werden. Beide Statistiken sind **komplementär**. Die deskriptive Statistik erlaubt zum Beispiel die Schlussfolgerung, dass die Werte in einer Bedingung kleiner oder grösser sind als in der anderen Bedingung. Ohne die Inferenzstatistik kann aber keine Schlussfolgerung gezogen werden, ob ein solcher Unterschied signifikant und damit bedeutsam ist."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/05-dataanalysis.html"
       },
       {
         "title": "Datenaufbereitung",
@@ -369,7 +401,8 @@
             "title": "Daten und experimentelles Design",
             "content": "Die aufbereiteten Daten, welche dann für die Datenanalyse verwendet werden, müssen das experimentelle Design reflektieren. Nur so können die Hypothesen getestet werden."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/05-dataanalysis.html#datenaufbereitung"
       },
       {
         "title": "Datenanalyse",
@@ -381,7 +414,8 @@
             "title": "Abbildungen von mehreren abhängigen Variablen",
             "content": "Im Fall von mehreren abhängigen Variablen empfiehlt es sich, diese in mehreren Teilabbildungen darzustellen. Hier sollte angestrebt werden, die Teilabbildungen so ähnlich wie möglich zu gestalten. Dies vereinfacht den Vergleich der einzelnen Teilabbildungen und somit das Verständnis der Datenlage."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/05-dataanalysis.html#datenanalyse"
       },
       {
         "title": "Planung der Datenanalyse",
@@ -398,7 +432,8 @@
             "title": "Was wird berichtet?",
             "content": "Unabhängig davon, wie die Daten exploriert werden, grundsätzlich wird immer mehr analysiert als am Schluss kommuniziert wird. Wenn aber explorative Analysen berichtet werden, müssen diese als solche ausgewiesen werden. Zum Beispiel kann es geschrieben werden, nachdem die geplanten Analysen abschliessend berichtet wurden: «Mit den Daten wurden folgende explorativen Analysen durchgeführt». Der Leser bzw. die Leserin muss auf Anhieb erkennen können, welche Analysen geplant und somit konfirmatorisch sind und welche Analysen ungeplant und somit explorativ sind."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/05-dataanalysis.html#planung-der-datenanalyse"
       },
       {
         "title": "Fehlverhalten bei der Datenanalyse",
@@ -410,7 +445,8 @@
             "title": "Folgen von Fehlverhalten",
             "content": "Für Studierende können die genannten Verfehlungen die sofortige Exmatrikulation zur Folge haben. Titel, die auf Grund dieser Verfehlungen erworben wurden, können auch noch Jahre nach der ursprünglichen Verfehlung entzogen werden. Studien, welche auf Grund fehlbarer Verhaltensweisen publiziert wurden, werden öffentlich als solche kenntlich gemacht und «zurückgezogen». Die Namen von Forschern und Forscherinnen können bei entsprechendem fehlbarem Verhalten veröffentlicht werden. Forschern und Forscherinnen können bei entsprechendem fehlbaren Verhalten ihre Stelle verlieren."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/05-dataanalysis.html#misconductdata"
       },
       {
         "title": "Gute Forschungspraxis",
@@ -427,7 +463,8 @@
             "title": "Ein Beispiel für ein präregistriertes Forschungsprojekt mit offenen Daten und offenen Materialien",
             "content": "Das Forschungsprojekt, das im Zeitschriftenartikel zum [Zusammenspiel von Tageszeit und Chronotyp und dessen Auswirkungen auf kognitive Leistungen](https://online.ucpress.edu/collabra/article-pdf/9/1/88337/792839/collabra_2023_9_1_88337.pdf) [@reymermetrothen2023] beschrieben wird, wurde [präregistriert](https://osf.io/tywu7). Die Daten sowie die Materialien (Studienmaterialien, Programmcode und Analysecode) wurden auf einem öffentlich zugänglichen [Server](https://osf.io/ngfxv/) bereitgestellt."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/05-dataanalysis.html#gute-forschungspraxis"
       }
     ]
   },
@@ -454,7 +491,8 @@
             "title": "Gültigkeitsbereich der Konventionen",
             "content": "In den nächsten Kapiteln liegt der Fokus auf einem empirischen Artikel, da dieses Format am häufigsten vorkommt und am umfassendsten ist. Die Konventionen gelten auch für alle anderen Arten von Berichten im Feld der Psychologie."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/06-manuscript.html"
       }
     ]
   },
@@ -471,13 +509,15 @@
             "title": "Forschungsarbeit vs. literarische Arbeit",
             "content": "Eine Forschungsarbeit ist keine literarische Arbeit. Es soll ein Sachverhalt möglichst präzise, transparent und verständlich vermittelt werden. Ästhetik ist in dieser Hinsicht immer zweitrangig."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/07-structure.html"
       },
       {
         "title": "Struktur des Manuskriptes",
         "level": 2,
         "content": "Die übergeordnete Struktur empirischer Artikel ist durch folgende Manuskriptteile gegeben: Titel(-seite), Kurzfassung, Einleitung, Methode, Resultate, Diskussion und Literaturverzeichnis. @tbl-mstruct gibt einen Überblick über die einzelnen Manuskriptteile und deren Unterteile. Zusätzlich zu den typischen Manuskriptteile, die in @tbl-mstruct präsentiert werden, können noch folgende Teile kommen: Autorenbeiträge, Fussnoten, Tabellen, Abbildungen und Anhang. \\newpage ``` \\KOMAoptions \\recalctypearea ``` ```",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/07-structure.html#struktur-des-manuskriptes"
       },
       {
         "title": "| tbl-cap: Überblick über die Manuskriptteile",
@@ -489,13 +529,15 @@
             "title": "Was wird im Manuskript betitelt?",
             "content": "Im Manuskript werden typischerweise die Teile wie Kurzfassung, Einleitung, Methode, Resultate, Diskussion, Autorenbeiträge, Literaturverzeichnis und Anhang betitelt. Auch die Elemente des Methodenteils, wie Versuchspersonen, Material, Durchführung, Design (falls separat) und Analysen (falls separat), werden betitelt. Es ist jedoch unüblich, die weiteren in @tbl-mstruct genannten Elemente zu betiteln."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/07-structure.html#tbl-cap-%C3%BCberblick-%C3%BCber-die-manuskriptteile"
       },
       {
         "title": "Struktur der Hauptteile",
         "level": 2,
         "content": "Der übergeordneten Struktur eines Artikels folgend, sind auch die einzelnen Teile entsprechend strukturiert. Inhaltlich organisiert sich die [Einleitung](#intro) vom Allgemeinen zum Spezifischen hin. Zu Beginn werden die zentralen Konzepte eingeführt, die Forschungslücke etabliert, die Forschungsfrage genannt, der gegenwärtige Forschungsstand eingeführt, und davon abgeleitet, die spezifischen Hypothesen formuliert. Zu diesem Zweck enthält die Einleitung vier Unterteile. Erstens gibt es einen *einleitenden Absatz.* In diesem Absatz wird das Interesse geweckt, dann werden die Hauptkonzepte definiert und am Schluss dieses Absatzes werden die Forschungslücke sowie die Forschungsfrage spezifisch genannt. Nach dem ersten Absatz folgen mehrere Absätze, welche *die Forschungsfrage in die bisherige Forschung integriert und dabei die bisherige Forschung synthetisiert*. Danach wird die *Forschungslücke* ausführlich in einem eigenen Absatz dargestellt. In diesem Absatz wird auch beschrieben, wie die aktuelle Studie diese Forschungslücke schliesst. Abschliessend werden die *Hypothesen* als spezifische Voraussagen im Hinblick auf die zu erwartenden Befunde formuliert. Die Hypothesen werden dabei aus der Integration und Synthese der bisherigen Forschung abgeleitet. Nach dem Absatz mit den Hypothesen in der Einleitung folgen die [Methoden](#methods). Der Methodenteil ist im Vergleich zur Einleitung nicht allgemein theoretisch, sondern sehr spezifisch auf das eigene Experiment ausgerichtet. Inhaltlich organisiert sich der Methodenteil weiter vom Allgemeinen zum Spezifischen. Zu Beginn wird die *Stichprobe*, dann das verwendete *Material* beschrieben und zum Schluss die *experimentelle Prozedur* beschrieben. Inhaltlich sind auch die Unterteile Stichprobe, Material, und Prozedur so organisiert, dass sie vom Allgemeinen zum Spezifischen gehen. Gut ersichtlich ist dies zum Beispiel an der Prozedur, welche zuerst die grobe Struktur des Ablaufs beschreibt und erst zum Schluss auf die Struktur eines einzelnen Durchgangs in einer Aufgabe eingeht. Nach der Prozedur werden auch häufig das experimentelle *Design* sowie die *Datenanalyse* in eigenen Abschnitten aufgeführt. Nach den Methoden folgen die [Resultate](#results). Ab hier verhält sich die inhaltliche Struktur umgekehrt, nämlich vom Spezifischen zum Allgemeinen. Das heisst, es wird immer zuerst die *Hauptanalyse* berichtet. Dabei handelt es sich um die Analyse, welche am spezifischsten auf die Forschungsfrage ausgerichtet ist. Erst danach folgen *weitere Analysen*, welche zusätzliche («allgemeinere») Erkenntnisse liefern. Nach den Resultaten folgt die [Diskussion](#discussion). Auch der Teil der Diskussion ist inhaltlich vom Spezifischen zum Allgemeinen organisiert. Zu Beginn werden in Worten nochmals *die Hauptbefunde der statistischen Analysen zusammengefasst*, bevor deren Bedeutung diskutiert wird. Auch die eigentliche Diskussion der Resultate verläuft vom Spezifischen zum Allgemeinen. So wird zuerst diskutiert, was die Resultate hinsichtlich der spezifischen Forschungsfrage bedeuten. Darauf folgt dann die *Integration mit der bestehenden Forschung* (Diskussion der Bedeutung der Resultate für das Forschungsfeld). Anschliessend werden manchmal auch *Limitationen* des Experiments erwähnt. Abgeschlossen wird die Diskussion zumeist mit einer allgemeinen *Schlussfolgerung* hinsichtlich einer generelleren Bedeutung der Resultate.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/07-structure.html#struct-manuscriptpart"
       },
       {
         "title": "Struktur eines Absatzes",
@@ -507,19 +549,22 @@
             "title": "Ein Absatz: Mehr als einen Satz!",
             "content": "Ein einzelner Absatz besteht per Definition nie aus einem einzigen Satz. Es sind mindestens zwei Sätze für einen Absatz nötig."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/07-structure.html#struktur-eines-absatzes"
       },
       {
         "title": "Struktur eines Satzes",
         "level": 2,
         "content": "Um das Verständnis zu vereinfachen, sollte die Satzstruktur in wissenschaftlichen Arbeiten möglichst einfach gehalten werden. Einzelne Sätze sollten möglichst prägnant sein. Jeder Satz soll logisch auf den vorangehenden Satz folgen. Gedankensprünge zwischen einzelnen Sätzen sollen unbedingt vermieden werden. Ein Weg Sätze logisch zu verknüpfen ist die Verwendung von Bindewörtern (vgl. @tbl-connections). Hier sind jedoch die folgenden Regeln zu beachten: - Man muss jedoch sparsam mit Bindewörtern umgehen. Nicht jeder Satz muss ein Bindewort enthalten. - Die Bedeutung des Bindeworts muss beachtet werden. - Bei Vergleichen sollten diese auf derselben konzeptuellen Ebene stattfinden (z.B. zwei Theorien oder Methoden, aber nicht theoretische und methodische Aspekte). \\newpage ``` \\KOMAoptions \\recalctypearea ``` ```",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/07-structure.html#struktur-eines-satzes"
       },
       {
         "title": "| tbl-cap: Die Tabelle listet exemplarisch einige Bindewörter, deren Bedeutung und Beispiele zu deren Verwendung im Kontext.",
         "level": 2,
         "content": "tbl_connections kableExtra::kable_styling(full_width = FALSE, latex_options = c('repeat_header', 'hold_position'), bootstrap_options = c(\"striped\", \"hover\", \"condensed\", \"responsive\")) |> kableExtra::column_spec(1, width = '3cm') |> kableExtra::column_spec(2, width = '4cm') |> kableExtra::column_spec(3, width = '10.5cm') ``` \\newpage ``` \\KOMAoptions \\recalctypearea ```",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/07-structure.html#tbl-cap-die-tabelle-listet-exemplarisch-einige-bindew%C3%B6rter-deren-bedeutung-und-beispiele-zu-deren-verwendung-im-kontext."
       },
       {
         "title": "Struktur auf Wortebene",
@@ -536,7 +581,8 @@
             "title": "Geschlechtergerechter Sprachgebrauch",
             "content": "Wenn der Text auf Deutsch verfasst wird, stellt sich die Frage des geschlechtergerechten Sprachgebrauchs. In diesem Fall gibt es keine festen Konventionen. Die deutsche Sprache bietet viele Optionen, geschlechtergerecht zu formulieren. Zum Beispiel präsentiert [DUDEN](https://www.duden.de/sprachwissen/sprachratgeber/Geschlechtergerechter-Sprachgebrauch) einige davon. Wichtig ist, dass wenn man sich für eine Option entschieden hat, man diese Option konsistent verwendet."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/07-structure.html#struktur-auf-wortebene"
       }
     ]
   },
@@ -553,25 +599,29 @@
             "title": "Englische Namen der Manuskriptteile",
             "content": "In der psychologischen Grundlagenforschung wird üblicherweise auf Englisch publiziert. Daher wird in diesem Lehrbuch zusätzlich in Klammern auf die englischen Namen der entsprechenden Manuskriptteile angegeben."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/08-content.html"
       },
       {
         "title": "Titelseite (engl. *Title Page*)",
         "level": 2,
         "content": "Ein guter Titel fasst die Hauptidee des Manuskripts zusammen. Des Weiteren ist er kurz, prägnant und weckt das Interesse potentieller Leser und Leserinnen (vgl. @tbl-titles). \\newpage ``` \\KOMAoptions \\recalctypearea ``` ```",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/08-content.html#title"
       },
       {
         "title": "| tbl-cap: Vergleich zwischen effektiven und nicht effektiven Titeln, die aus dem Englischen übersetzt wurden (American Psychological Association - APA, 2020)",
         "level": 2,
         "content": "tbl_titles kableExtra::kable_styling(full_width = FALSE, latex_options = c('repeat_header', 'hold_position'), bootstrap_options = c(\"striped\", \"hover\", \"condensed\", \"responsive\")) |> kableExtra::column_spec(1, width = '0.2cm') |> kableExtra::column_spec(2, width = '5.8cm') |> kableExtra::column_spec(3, width = '5.8cm') |> kableExtra::column_spec(4, width = '5.7cm') ``` \\newpage ``` \\KOMAoptions \\recalctypearea ``` Auf die Titelseite werden auch die Autorinnen und Autoren gelistet. Wie bei den anderen wissenschaftlichen Arbeiten (z.B. Vortrag oder Poster) gelten die folgenden Richtlinien für die Autorinnen und Autoren eines Manuskriptes. Das heisst: - Eine Person wird als Autorin bzw. Autor auf einem Vortrag, wenn sie einen **substanziellen kreativen** Beitrag an der Studie geleistet hat. [Hier](#litsciarticle) wird eine Beschreibung präsentiert, was ein substanzieller kreativer Beitrag ist. - Die **Autorenreihenfolge** wird hauptsächlich durch den Beitrag der einzelnen Personen bestimmt. Dies bedeutet, dass die Personen zuerst aufgelistet werden, welche den grössten Beitrag geleistet haben. Die letzte Position in der Auflistung ist eine Ausnahme. Diese Position obliegt der Leitung der Forschungsgruppe, insofern die leitende Person nicht gleichzeitig den grössten Beitrag geleistet hat und somit als erstes aufgelistet ist. Im Fall von *studentischen Arbeiten* können andere Reihenfolgen festgelegt werden / gefordert sein. Zum Beispiel könnte eine alphabetische Reihenfolge verwendet werden. - Unabhängig von ihrer Position in der Auflistung, **müssen alle Autorinnen und Autoren mit den Inhalten der entsprechenden Arbeit vertraut und einverstanden sein**.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/08-content.html#tbl-cap-vergleich-zwischen-effektiven-und-nicht-effektiven-titeln-die-aus-dem-englischen-%C3%BCbersetzt-wurden-american-psychological-association---apa-2020"
       },
       {
         "title": "Kurzfassung (engl. Abstract)",
         "level": 2,
         "content": "Kurzfassungen sind auf **maximal 250 Wörter** beschränkt. Ziel der Kurzfassung ist es, einen kurzen, in sich verständlichen Überblick über die Inhalte des Manuskripts zu geben. In die Kurzfassung gehören die zentralen Konzepte, der theoretische Hintergrund, die Forschungsfrage, die Stichprobe, die verwendeten Aufgaben mit den experimentellen Bedingungen, die Hauptbefunde und deren Interpretation in Bezug auf die Forschungsfrage (d.h. der wissenschaftliche Erkenntnisgewinn). Eine qualitativ gute Kurzfassung ist: - Akkurat: In der Kurzfassung steht nichts, was nicht auch im Manuskript steht. - Nicht wertend: Die Kurzfassung berichtet, aber wertet nicht. - Kohärent und leserlich: Die Kurzfassung ist in einer klaren Sprache geschrieben. - Konzis: Jeder Satz in der Kurzfassung ist maximal informativ. - Allein stehend: Die Kurzfassung muss für sich **alleine verständlich** sein, ohne dass andere Teile des Manuskripts gelesen werden müssen. Abkürzungen müssen dementsprechend auch eingeführt werden. Das bedeutet, dass Abkürzungen in der Kurzfassung und später beim ersten Gebrauch in der Einleitung eingeführt werden müssen.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/08-content.html#kurzfassung-engl.-abstract"
       },
       {
         "title": "Einleitung (engl. *Introduction*)",
@@ -588,7 +638,8 @@
             "title": "Logische Ableitung der Hypothesen",
             "content": "Es ist zwingend darauf zu achten, dass die **Hypothesen logisch** mit aus der Einleitung abgeleiteten Argumenten begründet werden. Eine logische Ableitung kann wie folgt aussehen: Wenn Theorie A gilt, erwarten wir X als Resultat, da nur Prozess P betroffen ist. Wenn aber Theorie B gilt, erwarten wir Y als Resultat, da gemäss Theorie die Prozesse P und Q betroffen sind. Hier ist es wichtig, dass die Theorien A und B sowie die Prozesse P und Q in der Integration und Synthese der Befundlage erklärt wurden. Typischerweise werden die Theorien A und B durch Referenzen unterstützt, welche in der Integration und Synthese der Befundlage auch erwähnt wurden."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/08-content.html#intro"
       },
       {
         "title": "Methode (engl. *Methods*)",
@@ -615,13 +666,15 @@
             "title": "Tabellen und Abbildungen in der Methode",
             "content": "Zur Präzisierung der Beschreibung von Material und Durchführung im Text können auch Tabellen und / oder Abbildungen verwendet werden. Man soll jedoch sparsam damit umgehen und Redundanz zwischen Text und Tabellen und / oder Abbildungen vermeiden."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/08-content.html#methods"
       },
       {
         "title": "Resultate (engl. *Results*)",
         "level": 2,
         "content": "Im Resultate-Teil wird die statistische Evidenz für die Befunde eines Experiments geliefert. **Die Analyse, die am wichtigsten für die Beantwortung der Forschungsfrage ist, sollte immer zuerst berichtet werden.** Im Sinne transparenter Berichterstattung sind allfällige weiterführende Analysen, welche nicht direkt zur Beantwortung der Forschungsfrage relevant sind, als explorative Analysen zu kennenzeichnen. Für jede quantitative Analyse werden zwei Arten von Statistiken berichtet: Die deskriptive (d.h. beschreibende) und die Inferenz- (d.h. schliessende) Statistik. Im Folgenden werden beide im Detail aufgeführt.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/08-content.html#results"
       },
       {
         "title": "Deskriptive Statistik",
@@ -633,7 +686,8 @@
             "title": "Redundanz ist zu vermeiden!",
             "content": "Bei der deskriptiven Statistik muss auf Redundanzen verzichtet werden. Die Resultate sollten entweder im Text, in einer Tabelle oder einer Abbildung berichtet werden. **Dieselben Resultate dürfen nicht in verschiedenen Formaten präsentiert werden.**"
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/08-content.html#deskriptive-statistik"
       },
       {
         "title": "Inferenzstatistik",
@@ -645,7 +699,8 @@
             "title": "Was kommt zuerst?",
             "content": "Man berichtet immer zuerst die für Ihre Forschungsfrage und Hypothesen wichtigsten Analysen, gefolgt von den weniger wichtigen Analysen. Man rechnet Analyse für Analyse und man beginnt immer zuerst mit der deskriptiven Statistik einer Analyse, gefolgt von der Inferenzstatistik."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/08-content.html#inferenzstatistik"
       },
       {
         "title": "Diskussion (engl. *Discussion*)",
@@ -657,7 +712,8 @@
             "title": "Zur Verwendung von Zeitformen beim Schreiben",
             "content": "- **Einleitung**: Grundsätzlich gilt, dass etablierte allgemeingültige Befunde im Präsens (Gegenwart) geschrieben werden. Einmalige Befunde (z.B. wenn es nur eins, zwei Studien gibt) werden in der Vergangenheit berichtet. ABER: Es ist wichtiger, dass die Sätze sprachlich sinnvoll und grammatikalisch korrekt miteinander verknüpft sind, als dass diese Regel eingehalten wird. - **Methode**: Im Methodenteil werden Informationen präsentiert, wie das Experiment umgesetzt wurde. Da das Experiment bereits durchgeführt wurde, schreibt man die Methode in der Vergangenheit. - **Resultate**: Im Resultate-Teil werden Informationen dazu präsentiert, wie analysiert wurde, und was gefunden wurde. Deswegen schreibt man die Resultate in der Vergangenheit. - **Diskussion**: Grundsätzlich gilt auch hier wie bei der Einleitung, etablierte Befunde werden in der Gegenwart beschrieben. Einmalige Befunde werden in der Vergangenheit beschrieben. Da es sich bei der eigenen Studie um einen neuen bisher einmaligen Befund handelt, werden die eigenen Resultate in der Vergangenheit berichtet. Der Interpretation der eigenen Befunde soll eine gewisse Allgemeingültigkeit zukommen. Deswegen wird die Bedeutung der Befunde in der Gegenwart formuliert. ABER: Es ist wichtiger, dass die Sätze sprachlich sinnvoll und grammatikalisch korrekt miteinander verknüpft sind, als dass diese Regeln eingehalten werden."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/08-content.html#discussion"
       },
       {
         "title": "Autorenbeiträge nach CRediT Richtlinien",
@@ -684,19 +740,22 @@
             "title": "Webapplikation",
             "content": "Um Autorenbeiträge möglichst einfach nach CRediT Richtlinien zu dokumentieren, gibt es die Webapplikation [tenzing](https://martonbalazskovacs.shinyapps.io/tenzing/). Diese wurde von Holcombe et al. [-@holcombe_2020_PLOSONE] entwickelt."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/08-content.html#credit"
       },
       {
         "title": "Literaturverzeichnis (engl. *References*)",
         "level": 2,
         "content": "Das Literaturverzeichnis hat den Zweck, die im Text zitierten Quellen zuverlässig zu dokumentieren. Ziel der Quellen ist es, frühere Forschungsarbeiten anzuerkennen sowie Interpretation und Schlussfolgerungen zu stützen. Wir empfehlen dazu die Verwendung einer [Literaturverwaltungssoftware](#refman).",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/08-content.html#literaturverzeichnis-engl.-references"
       },
       {
         "title": "Fussnoten (engl. *Footnotes*)",
         "level": 2,
         "content": "Fussnoten werden gebraucht, um zusätzliche Inhalte oder Copyright Informationen zur Verfügung zu stellen. Fussnoten sollen keine irrelevanten Informationen beinhalten. Am besten sollten sie aber möglichst vermieden werden und der Inhalt möglichst im Text integriert werden.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/08-content.html#fussnoten-engl.-footnotes"
       },
       {
         "title": "Tabellen (engl. *Tables*)",
@@ -708,7 +767,8 @@
             "title": "Ab wie vielen Bedingungen ist eine Tabelle sinnvoll?",
             "content": "Damit der Gebrauch einer Tabelle zu deskriptiv statistischen Zwecken Sinn ergibt, müssen **mindestens vier** Bedingungen miteinander verglichen werden. Bei weniger Bedingungen sollten die Werte im Text berichtet werden."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/08-content.html#tabellen-engl.-tables"
       },
       {
         "title": "Abbildungen (engl. *Figures*)",
@@ -725,7 +785,8 @@
             "title": "Redundanz ist zu vermeiden!",
             "content": "Es muss unbedingt vermieden werden, redundante Informationen im Text, Tabellen und Abbildungen zu präsentieren. Man entscheidet sich jeweils für ein Format, in dem man die Information präsentiert. Das heisst, man präsentiert die Information entweder im Text, in einer Tabelle oder in einer Abbildung."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/08-content.html#abbildungen-engl.-figures"
       },
       {
         "title": "Anhang (engl. *Appendix*)",
@@ -737,7 +798,8 @@
             "title": "Wie viele Anhänge sind erlaubt?",
             "content": "Anhänge sollten sparsam verwendet werden. Anhänge sind eher die **Ausnahme** als die Regel!"
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/08-content.html#anhang-engl.-appendix"
       }
     ]
   },
@@ -754,7 +816,8 @@
             "title": "Vorlage",
             "content": "Um die Arbeit bei der Manuskriptgestaltung zu vereinfachen, wurde eine [Vorlage](./resources/APA7_template.docx) vorbereitet. Die Vorlage ist gemäss den formalen Richtlinien der APA formatiert. Es muss nur noch der Inhalt entsprechend dem Experiment ersetzt werden. Um die Formatierung braucht man sich nicht mehr kümmern."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/09-formatting.html"
       },
       {
         "title": "Allgemeine Richtlinien",
@@ -766,7 +829,8 @@
             "title": "Abkürzungen sollen sparsam verwendet werden!",
             "content": "Zu viele Abkürzungen erschweren das Lesen und somit das Verständnis des Textes. Deswegen sollten zu viele Abkürzungen vermieden werden."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/09-formatting.html#allgemeine-richtlinien"
       },
       {
         "title": "Titelseite (engl. Title Page)",
@@ -778,43 +842,50 @@
             "title": "Wichtigste Wörter des Titels grossschreiben",
             "content": "Die wichtigsten Wörter des Titels werden grossgeschrieben. Zum Beispiel: «Manuskriptvorlage nach der Siebten Auflage des Publikationsmanuals der Amerikanischen Psychologischen Gesellschaft»."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/09-formatting.html#format-title"
       },
       {
         "title": "Kurzfassung (engl. Abstract)",
         "level": 3,
         "content": "Die Kurzfassung folgt nach der Titelseite auf einer neuen Seite. Sie steht demzufolge auf einer eigenen Seite unter dem zentrierten Titel «Kurzfassung». Die Kurzfassung wird in **einem** Absatz geschrieben. Die erste Zeile wird **nicht** eingerückt. Kurzfassungen sind auf **maximal 250 Wörter** beschränkt.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/09-formatting.html#kurzfassung-engl.-abstract"
       },
       {
         "title": "Einleitung (engl. Introduction)",
         "level": 3,
         "content": "Die Einleitung startet auf einer neuen Seite nach der Kurzfassung. Auf dieser Seite wird als Erstes nochmals der Titel des Manuskripts zentriert und fett hingeschrieben. Auf der nächsten Zeile beginnt dann die Einleitung. Die erste Zeile wird eingerückt. Der Text wird linksbündig formatiert.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/09-formatting.html#format-intro"
       },
       {
         "title": "Methode (engl. Methods)",
         "level": 3,
         "content": "Die Methode beginnt mit dem Titel «Methode». Sie folgt unmittelbar auf die Einleitung und nicht auf einer neuen Seite. Abgesehen davon ist das Format der Methode identisch mit dem Format der [Einleitung](#format-intro).",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/09-formatting.html#format-methods"
       },
       {
         "title": "Resultate (engl. Results)",
         "level": 3,
         "content": "Das Format des Resultate-Teils ist identisch mit dem Format der [Einleitung](#format-intro), ausser in Bezug auf zwei Punkte. Erstens beginnt der Resultate-Teil mit dem Titel «Resultate». Zweitens folgt der Resultate-Teil unmittelbar auf die Methode und nicht auf einer neuen Seite. In diesem Teil werden typischerweise statistische Kennwerte berichtet. Hier sind einige Richtlinien für das Berichten dieser Kennwerte aufgelistet: - Buchstaben werden kursiv geschrieben. Es gibt aber eine Ausnahme: Griechische Buchstaben werden nicht kursiv geschrieben. - Werte, die nicht grösser als 1 werden können (z.B. *p*-Wert oder Korrelationswert), werden ohne Null vor dem Dezimaltrennzeichen geschrieben. - Die statistischen Kennwerte, wie zum Beispiel der *t*-Wert oder der *F*-Wert, werden auf zwei Nachkommastellen gerundet. Die *p*-Werte werden auf drei Nachkommastellen gerundet und genau berichtet. Es sei denn die Nachkommastellen reichen für eine präzise Angabe nicht mehr aus, dann wird «kleiner als» verwendet (*p* \\ ``` \\KOMAoptions \\recalctypearea ``` | Analyseverfahren | Kennwerte | Bemerkungen | |------------------|--------------------------|----------------------------| | *t*-Test | *t*(80) = 4.78, *p* = .048, Cohen's *d* = 0.43 | Cohen's *d* kann grösser als 1 sein. Darum wird eine Null vor dem Dezimaltrennzeichen geschrieben. | | Varianzanalyse | *F*(1, 200) = 5.26, *p* \\ ``` \\KOMAoptions \\recalctypearea ```",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/09-formatting.html#format-results"
       },
       {
         "title": "Diskussion (engl. Discussion)",
         "level": 3,
         "content": "Die Diskussion beginnt mit dem Titel «Diskussion». Sie folgt unmittelbar auf den Resultate-Teil und nicht auf einer neuen Seite. Sonst ist das Format der Diskussion identisch mit dem Format der [Einleitung](#format-intro).",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/09-formatting.html#format-discussion"
       },
       {
         "title": "Autorenbeiträge nach CRediT Richtlinien",
         "level": 3,
         "content": "Die Beiträge der verschiedenen Autorinnen und Autoren werden vor dem Literaturverzeichnis auf **einer separaten Seite** gelistet. Diese werden durch den Titel «Autorenbeiträge nach CRediT Richtlinien» eingeleitet. Dieser Titel wird fett und zentriert geschrieben. Auf der nächsten Zeile werden die Autorenbeiträge aufgelistet (siehe die [CRediT Richtlinien](#credit) für Beispiele).",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/09-formatting.html#autorenbeitr%C3%A4ge-nach-credit-richtlinien"
       },
       {
         "title": "Literaturverzeichnis (engl. References)",
@@ -826,13 +897,15 @@
             "title": "Titel im Literaturverzeichnis",
             "content": "Im Gegensatz zu den Titeln des Manuskripts, der Tabellen und der Abbildungen werden im Literaturverzeichnis die wichtigsten Wörter der Titel der Artikel und anderen Quellen **nicht** großgeschrieben. Stattdessen gelten die grammatikalischen Regeln der Sprache, in der die Titel verfasst sind."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/09-formatting.html#literaturverzeichnis-engl.-references"
       },
       {
         "title": "Fussnoten (engl. Footnotes)",
         "level": 3,
         "content": "Die Fussnoten werden im Text mit hochgestellten Zahlen, dem relevanten Text **nachfolgend**, gekennzeichnet und fortlaufend nummeriert. Die Fussnoten folgen auf einer **neuen Seite** nach dem Literaturverzeichnis. Diese Seite trägt den zentrierten und fett geschriebenen Titel «Fussnoten». Die Fussnoten werden selbst mit hochgestellten Zahlen, dem relevanten Text **vorangehend**, gekennzeichnet und entsprechend nummeriert (vgl. @fig-footnote). ![Die Abbildung zeigt im oberen Teil, wie im Text auf eine Fussnote verwiesen wird und im unteren Teil die Fussnote selbst, wie sie auf einer separaten Seite nach dem Literaturverzeichnis berichtet werden. Das Beispiel stammt aus dem Manuskript von Rothen et al. [-@rothen_2020_Memory&Cognition_SingleSystemAccountEnhancedRecognition].](resources/APA7_footnote.png)",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/09-formatting.html#fussnoten-engl.-footnotes"
       },
       {
         "title": "Tabellen (engl. Tables)",
@@ -844,7 +917,8 @@
             "title": "Referenzieren im Text",
             "content": "Es ist zu beachten, dass auf jede Tabelle im Text referenziert werden muss! Dazu muss das Wort «Tabelle» und die entsprechende Nummer verwendet werden. Es muss nicht auf die Tabelle referenziert werden, indem beispielsweise «die Tabelle unten» geschrieben wird."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/09-formatting.html#tabellen-engl.-tables"
       },
       {
         "title": "Abbildungen (engl. Figures)",
@@ -861,25 +935,29 @@
             "title": "Referenzieren im Text",
             "content": "Es ist zu beachten, dass auf jede Abbildung im Text referenziert werden muss! Dazu muss je nach Situation das Wort «Abbildung» und die entsprechende Nummer verwendet werden. Es muss nicht auf die Abbildung referenziert werden, indem beispielsweise «die Abbildung oben» geschrieben wird."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/09-formatting.html#abbildungen-engl.-figures"
       },
       {
         "title": "Anhang (engl. Appendix)",
         "level": 3,
         "content": "Allfällige Anhänge werden auf einer neuen Seite nach den Abbildungen eingeführt. Jeder Anhang beginnt auf einer neuen Seite mit dem Titel «Anhang», der fett und zentriert geschrieben ist. Bei mehreren Anhängen wird der Titel Anhang mit fortlaufenden Grossbuchstaben versehen (d.h. Anhang A, Anhang B, Anhang C, usw.). Jeder Anhang muss mindestens einmal im Text genannt sein. Wenn ein Anhang Tabellen oder Abbildungen enthält, werden diese fortlaufend, entsprechend dem Buchstaben des Anhangs nummeriert (z.B. Abbildung C1).",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/09-formatting.html#anhang-engl.-appendix"
       },
       {
         "title": "Titelstufen",
         "level": 3,
         "content": "Gemäss den Richtlinien der APA gibt es fünf Titelstufen. Diese sind in @fig-titlev dargestellt. ![Diese Abbildung zeigt die fünf Titelstufen. Diese sind gemäss den APA-Richtlinien formatiert.](resources/APA7_headings.png)",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/09-formatting.html#titelstufen"
       },
       {
         "title": "Referenzen im Text",
         "level": 4,
         "content": "Literaturangaben im Text (auch Referenzen genannt) können auf verschiedene Arten realisiert werden. Grundsätzlich gibt es Referenzen direkt im Textfluss (narrative Referenzierung) oder in Klammern. @tbl-citations gibt einen Überblick über die Referenzierung im Text. Die Angaben in dieser Tabelle entsprechen der ersten drei Quellen der @tbl-refauthors. ```",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/09-formatting.html#REFS"
       },
       {
         "title": "| tbl-cap: Referenzierung im Text",
@@ -896,7 +974,8 @@
             "title": "«Diverse / Bisherige Studien...»",
             "content": "Satzanfänge wie «Diverse Studien haben...» oder «Bisherige Studien zeigen...» verlangen mehrere Referenzen am Schluss des Satzes. Zum Beispiel: «Diverse Studien haben diesen Befund repliziert (Luna, 2020; Martin et al., 2020; Salas & D'Agostino, 2020).»"
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/09-formatting.html#tbl-cap-referenzierung-im-text"
       },
       {
         "title": "Zitate",
@@ -908,7 +987,8 @@
             "title": "## Anführungszeichen",
             "content": "Anführungszeichen werden bei wörtlichen Zitaten verwendet. Sie werden aber nicht zur Hervorhebung von Wörtern verwendet."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/09-formatting.html#zitate"
       },
       {
         "title": "Zahlen",
@@ -920,7 +1000,8 @@
             "title": "Warum sind diese Richtlinien wichtig?",
             "content": "Diese formalen Richtlinien mögen kleinlich erscheinen, doch ihre konsequente Anwendung zeigt, dass man als sorgfältiger Forscher oder sorgfältige Forscherin arbeitet. Dies wirkt sich auch auf die Beurteilung Ihrer wissenschaftlichen Arbeit aus. Forschungsresultaten in einer sauberen Arbeit traut man eher als Forschungsresultaten in einer unsauberen Arbeit. Deswegen werden diese formalen Kriterien oft auch bei der Bewertung von Arbeiten im Rahmen eines Studiums stark gewichtet."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/09-formatting.html#zahlen"
       }
     ]
   },
@@ -931,7 +1012,8 @@
         "title": "Schreibstrategien",
         "level": 1,
         "content": "Für den Schreibprozess selbst gibt es nicht direkt eine spezifische Herangehensweise. Nichtsdestotrotz kann es hilfreich sein systematisch vorzugehen. Im Folgenden werden einige Strategien aufgeführt, die beim Verfassen von wissenschaftlichen Texten und Texten im Allgemeinen hilfreich sein können. Abschliessend geht das Kapitel auf eine «Schreibstrategie» ein, die es unbedingt zu vermeiden gilt: Plagiarismus.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/10-writing.html"
       },
       {
         "title": "Zielpublikum",
@@ -948,7 +1030,8 @@
             "title": "Das Zielpublikum!",
             "content": "Texte werden immer für ein Zielpublikum verfasst. Texte werden **nicht** für betreuende Personen verfasst, welche sich in den relevanten Fachgebieten zumeist besser auskennen!"
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/10-writing.html#zielpublikum"
       },
       {
         "title": "Struktur und Inhalt",
@@ -960,7 +1043,8 @@
             "title": "Struktur schematisch aufzeichnen",
             "content": "Das Anfertigen einer schematischen Darstellung der inhaltlichen Struktur eines Textes hilft, die Umsetzbarkeit des Vorhabens zu erkennen. Auf diese Weise lässt sich überprüfen, ob die geplante Struktur sinnvoll und realisierbar ist."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/10-writing.html#struktur-und-inhalt"
       },
       {
         "title": "Einleitung",
@@ -972,49 +1056,57 @@
             "title": "Die Forschungsfrage bestimmt den Inhalt",
             "content": "In der Einleitung werden nur Informationen eingeführt, die auch tatsächlich für die Forschungsfrage relevant sind. Dies bereitet oft gerade bei der «Integration und Synthese der Befundlage» Schwierigkeiten. Entsprechend gilt es an dieser Stelle besonders darauf zu achten."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/10-writing.html#einleitung"
       },
       {
         "title": "Methode",
         "level": 3,
         "content": "- **Versuchspersonen**: - Wie viele Versuchspersonen wurden getestet? Welche demographischen Informationen wurden erhoben? Welche davon werden standardmässig in vergleichbaren Artikeln beschrieben? Welche davon sind zusätzlich für die Forschungsfrage relevant? - **Material**: - Was gehört zum Material? - Wurden Verben gebraucht, die Zustände beschreiben? - **Prozedur**: - Was gehört zur Prozedur? - Wurden Verben gebraucht, die Handlungen beschreiben? - **Design**: - Was ist nötig, um das Design komplett zu beschreiben? Das Design besteht aus unabhängigen und abhängigen Variablen. Wurden diese genannt? Wurden alle Stufen der unabhängigen Variablen genannt? Wurde bei den einzelnen Variablen berichtet, ob es sich um Innersubjekt- oder Zwischensubjekt-Faktoren handelt? Wurde dementsprechend das Design als gemischtes, Innersubjekt- oder Zwischensubjekt-Design berichtet? - **Analyse**: - Wurden die einzelnen Bearbeitungsschritte bei der Datenaufbereitung so berichtet, dass eine andere Person auf die gleichen Resultate kommen würde, wenn sie die Bearbeitungsschritte ausgehend von den Rohdaten durchführt?",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/10-writing.html#methode"
       },
       {
         "title": "Resultate",
         "level": 3,
         "content": "- **Hauptanalysen**: - Was ist / sind die Hauptanalyse/n zur Beantwortung der Forschungsfrage? - Wie wird / werden die Hauptanalyse/n in deskriptiver Form am besten dargestellt / berichtet (z.B. Abbildung, Tabelle, oder im Text)? - **Explorative Analysen**: - Was für weitere Analysen könnten noch relevant sein? Sind die Analysen zur Beantwortung der Forschungsfrage relevant? Wenn die Antwort nein ist, sollte grundsätzlich überlegt werden, ob diese Analysen nötig sind. Wurden diese Analysen im Voraus geplant? Wenn dies nicht der Fall ist, sollten diese Analysen als explorative Analysen deklariert werden. - Wie soll die deskriptive Statistik zu den explorativen Analysen berichtet werden? Wie die Inferenzstatistik?",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/10-writing.html#resultate"
       },
       {
         "title": "Diskussion",
         "level": 3,
         "content": "- **Zusammenfassung der Resultate** (erster Absatz der Diskussion): - Was ist gemäss Forschungsfrage der wichtigste Befund? Gibt es sonst noch interessante Befunde? - **Integration der Befunde mit den bisherigen Forschungsresultaten**: - Zweiter Absatz: Was bedeuten diese Befunde hinsichtlich der Forschungsfrage und Hypothesen? - Dritter Absatz: Was bedeuten diese Befunde hinsichtlich der Datenlage zu X in der Einleitung? - Vierter Absatz: Was bedeuten diese Befunde hinsichtlich der Datenlage zu Y in der Einleitung? - ... - **Limitationen**: - Gibt es Limitationen? Macht es überhaupt Sinn die Limitationen aufzuführen? **Limitationen sollen nur aufgeführt werden, wenn Zusatzanalysen die Limitationen nicht aus dem Weg räumen können.** Sollten Zusatzanalysen allfällige Limitationen erfassen können, sollen entsprechende Analysen in jedem Fall durchgeführt werden. ABER: Diese Analysen müssen im Resultate-Teil berichtet werden. - **Schluss bzw. Erkenntnisgewinn** (letzter Absatz der Diskussion): - Wie wird der Hauptbefund zu Beginn des letzten Absatzes am besten nochmals kurz und prägnant wiederholt? Was kann aus den Befunden des durchgeführten Experiments / der durchgeführten Experimente geschlossen werden?",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/10-writing.html#diskussion"
       },
       {
         "title": "Weitere Schreibstrategien",
         "level": 2,
         "content": "Einige weitere Schreibstrategien beruhen vor allem auf individuellen Präferenzen. Jede Person muss für sich herausfinden, was am besten funktioniert. Auf einige weitere Strategien wird im Folgenden kurz eingegangen. Es gibt aber sicher noch weitere individuelle Strategien.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/10-writing.html#weitere-schreibstrategien"
       },
       {
         "title": "Lesen",
         "level": 3,
         "content": "Die beste Schreibstrategie ist lesen, lesen, lesen... Lesen hilft, aus einer praktischen Perspektive heraus die Struktur und den Inhalt eines Manuskriptes zu verstehen. Wie haben es andere Autorinnen und Autoren gemacht? Wurden einzelne Dinge gut oder schlecht gelöst? Man darf sich von publizierten Artikeln inspirieren lassen. Sich-inspirieren-lassen bedeutet aber nicht, dass [Plagiarismus](#plagiarism) betrieben werden soll.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/10-writing.html#lesen"
       },
       {
         "title": "Erste Schritte",
         "level": 3,
         "content": "Es lohnt sich in einem ersten Schritt so viele Ideen, Gedanken, Beispiele und auch schon konkrete Formulierungen wie möglich zu sammeln. Von den gesammelten Elementen können dann diejenigen ausgewählt werden, welche für die Forschungsfrage relevant sind und den Qualitätsansprüchen an eine wissenschaftliche Arbeit genügen. Wenn die Hauptpunkte (z.B. der Einleitung) klar sind, kann die Argumentationslinie skizziert werden (z.B. in Form eines Baudiagramms). Ein solches Vorgehen kann helfen, die Kohärenz der Argumentationslinie zu überprüfen. Die genannten Schritte können alleine oder in der Gruppe durchgeführt werden. Grundsätzlich ist das Vorgehen in Gruppen erfolgsversprechender. Dabei kann eine Person erklären, wie sie den Text schreiben würde. Die Reaktion der anderen Gruppenmitglieder kann helfen, allfällige Schwachstellen zu identifizieren.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/10-writing.html#erste-schritte"
       },
       {
         "title": "Reihenfolge",
         "level": 3,
         "content": "Auch wenn ein Manuskript nach einer festgelegten Reihenfolge organisiert ist (Einleitung, Methode, Resultate, Diskussion), heisst das keineswegs, dass das Manuskript auch in dieser Reihenfolge verfasst werden muss. So kann man zum Beispiel bereits mit dem Methodenteil beginnen, während man zusätzliche Literatur für die Einleitung sucht. Solange die Daten noch nicht vollständig erhoben wurden, können Platzhalter für Informationen wie zum Beispiel die Anzahl der getesteten Versuchspersonen und deren demographische Angaben verwendet werden",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/10-writing.html#reihenfolge"
       },
       {
         "title": "Tageszeit",
@@ -1026,7 +1118,8 @@
             "title": "Verteiltes Schreiben",
             "content": "Oftmals ist es bei Schreibarbeiten auch hilfreich, jeden Tag zu schreiben, anstatt nur einmal in der Woche. Auf diese Weise bleibt man kontinuierlich im Thema drin."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/10-writing.html#tageszeit"
       },
       {
         "title": "Plagiarismus: Keine valide Strategie",
@@ -1038,7 +1131,8 @@
             "title": "Folgen von Plagiarismus",
             "content": "Plagiarismus ist ein wissenschaftliches Fehlverhalten beim Schreiben. Die möglichen Folgen sind dieselben wie bei [wissenschaftlichem Fehlverhalten im Umgang mit Daten](#misconductdata)."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/10-writing.html#plagiarism"
       },
       {
         "title": "Wie kann Plagiarismus aktiv vermieden werden?",
@@ -1050,7 +1144,8 @@
             "title": "## Verzerrungsfreier Sprachgebrauch",
             "content": "**Transparentes** **und präzises Schreiben** erfordert auch einen verzerrungsfreien Sprachgebrauch (*bias-free language*). Dies bedeutet, dass die Wörter in einem angemessenem Zusammenhang gebraucht werden sollen. Zum Beispiel muss man bei einem verzerrungsfreien Sprachgebrauch beachten, dass «sagen» und «behaupten» unterschiedliche Bedeutungen haben."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/10-writing.html#wie-kann-plagiarismus-aktiv-vermieden-werden"
       }
     ]
   },
@@ -1072,13 +1167,15 @@
             "title": "Schreiben: Ein iterativer Prozess",
             "content": "Schreiben besteht aus mehreren Zyklen verschiedener Phasen von **Schreiben**, **Lesen**, und **Revidieren**. Diese Phasen sind aber **nicht strikt getrennt**. Beim Lesen kann man zum Beispiel schon Notizen machen, wie man sein Manuskript schreiben könnte (z.B. in Form eines Plans). Beim Schreiben oder Revidieren soll man weiter lesen, damit neue Ideen und aktuelle Forschung ins Betracht gezogen werden können."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/11-cycle.html"
       },
       {
         "title": "Interne Revision des eigenen Textes als hauptverantwortliche Person",
         "level": 2,
         "content": "Wenn eine erste Version eines Manuskripts oder eines Manuskriptteils verfasst wurde, besteht der nächste Schritt aus der **Überarbeitung des eigenen Textes**, um den Text in der bestmöglichen Form den Mitautorinnen und Mitautoren zukommen zu lassen. Ziel dieses Schrittes ist, das Manuskript auf interne Konsistenz zu überprüfen. Das bedeutet, dass die [strukturellen Richtlinien](#struct) überprüft werden. Textstellen, bei denen die interne Konsistenz verletzt wird, werden dann markiert und überarbeitet. Un diese Textstellen zu erkennen und zu überarbeiten sind die in @tbl-revquests präsentierten Fragen hilfreich. \\newpage ``` \\KOMAoptions \\recalctypearea ``` ```",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/11-cycle.html#interne-revision-des-eigenen-textes-als-hauptverantwortliche-person"
       },
       {
         "title": "| tbl-cap: Nicht-exhaustive Liste von Fragen, die bei der Überarbeitung eines Manuskripts hilfreich sind",
@@ -1100,7 +1197,8 @@
             "title": "Planen",
             "content": "Es ist zu vermeiden, sich zu viel in zu kurzer Zeit vorzunehmen. Es ist sinnvoll, Reservezeit einzuplanen, falls es doch länger dauert als geplant. Als Faustregel sind 20% der veranschlagten Zeit für den Anfang ein guter strategischer Ansatz. Je nach Planungsfähigkeit muss der Prozentsatz grundsätzlich etwas angepasst werden."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/11-cycle.html#tbl-cap-nicht-exhaustive-liste-von-fragen-die-bei-der-%C3%BCberarbeitung-eines-manuskripts-hilfreich-sind"
       },
       {
         "title": "Interne Revision eines Textes mit den Mitautorinnen und Mitautoren",
@@ -1117,7 +1215,8 @@
             "title": "*Kill your darlings again!*",
             "content": "In dieser Phase müssen auch bereits verfasste Absätze oder Sätze gelöscht werden, wenn sie nicht mehr ganz passend erscheinen. Um diese zu erkennen, können die in @tbl-revquests präsentierten Fragen erneut verwendet werden."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/11-cycle.html#interne-revision-eines-textes-mit-den-mitautorinnen-und-mitautoren"
       },
       {
         "title": "Externe Begutachtung und Revision",
@@ -1134,7 +1233,8 @@
             "title": "Revision aufgrund der externen Begutachtung",
             "content": "Die Revision aufgrund der externen Begutachtung folgt im Wesentlichen dem Vorgehen bei der internen Revision. Der Revisionsprozess besteht aus mehreren Runden, bis alle Autorinnen und Autoren einverstanden sind. Dies betrifft auch einen möglichen Antwortbrief."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/11-cycle.html#externe-begutachtung-und-revision"
       }
     ]
   },
@@ -1145,7 +1245,8 @@
         "title": "Publikationsprozess",
         "level": 1,
         "content": "In diesem Kapitel wird der Publikationsprozess in internationalen wissenschaftlichen Fachzeitschriften mit Begutachtungsverfahren beschrieben. Publizieren in internationalen wissenschaftlichen Fachzeitschriften erfordert nicht nur das Verfassen eines wissenschaftlichen Manuskriptes, sondern auch eine Überarbeitung dessen inklusive Stellungnahme im Rahmen einer unabhängigen Begutachtung. Typischerweise wird die Begutachtung im Rahmen eines begutachten (engl. peer review) Verfahrens durchgeführt. Dieses Verfahren wird durch unabhängige Forscher und Forscherinnen durchgeführt, die Experten im Bereich des Forschungsgegenstands des zu begutachtenden Manuskripts sind. Konkret bedeutet dies, dass diese Experten ein Gutachten über das Manuskript verfassen. Ziel einer solchen Begutachtung ist die Qualität von wissenschaftlichen Manuskripten zu beurteilen, um unwissenschaftliche und schlechte Arbeiten auszusondern und gute Arbeiten noch besser zu machen. In diesem Kapitel wird zuerst auf den Publikationsprozess eingegangen, wie er bei wissenschaftlichen Fachzeitschriften funktioniert. Im Anschluss wird auf das Verfassen eines Gutachtens im Kontext des Begutachtungsprozesses eingegangen.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/12-publishing.html"
       },
       {
         "title": "Der Publikationsprozess",
@@ -1157,7 +1258,8 @@
             "title": "Dauer des Publikationsprozesses",
             "content": "Auf Grund des Publikationsprozesses können vom ersten Einreichen eines Manuskripts bis zu dessen Publikation mehrere Monate bis Jahre vergehen. Wissenschaftliche Textbücher werden auf der Grundlage empirischer Forschungsarbeiten geschrieben. Bis wissenschaftliche Erkenntnisse in Textbüchern auftauchen, dauert es normalerweise mehrere Jahre."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/12-publishing.html#der-publikationsprozess"
       },
       {
         "title": "Verfassen eines Gutachtens",
@@ -1174,13 +1276,15 @@
             "title": "Anonymität und Vertraulichkeit",
             "content": "Gutachten sind in der Regel anonym und vertraulich. Das heisst, die Autorinnen und Autoren des Manuskripts, das begutachtet wurde, erfahren nicht, wer die Gutachter und Gutachterinnen sind. Manchmal ist es auch der Fall, dass Gutachter und Gutachterinnen nicht erfahren, wer die Autorinnen und Autoren der begutachteten Arbeit sind. In allen Fällen dürfen die Gutachten sowie die begutachtete Arbeit ohne Einwilligung von der Auftraggeberin bzw. dem Auftraggeber des Gutachtens (z.B. Vertreterin bzw. einem Vertreter der Herausgeberschaft) nicht geteilt werden."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/12-publishing.html#verfassen-eines-gutachtens"
       },
       {
         "title": "Struktur",
         "level": 3,
         "content": "- **Titel**: Titel des Gutachtens (z.B. «Gutachten»). - **Titel des Manuskripts**: Titel der zu begutachtenden Arbeit. - **Autorinnen / Autoren**: Autorinnen bzw. Autoren der zu begutachtenden Arbeit. Falls die Autoren und Autorinnen nicht bekannt sind, kann man «unbekannt» schreiben. - **Zeitschrift / Modul**: Zeitschrift oder Modul für welche/s das Gutachten verfasst wird. - **Zusammenfassung**: Zusammenfassung der zu begutachtenden Arbeit (8-12 Zeilen). - **Evaluation**: Evaluation der zu begutachtenden Arbeit (4-6 Zeilen). - **Grössere Schwachpunkte**: Auflistung der grösseren Schwachpunkte der begutachteten Arbeit. Schwachpunkte werden als gross eingestuft, wenn zu deren Verbesserung ein substanzieller Mehraufwand nötig ist (z.B. Umschreiben grösserer Textteile, erneutes Auswerten der gesamten Daten). Grössere Schwachpunkte werden absteigend sortiert (d.h., der grösste Schwachpunkt wird zuerst gelistet, dann folgt der zweitgrösste Schwachpunkt, usw.). - **Kleinere Schwachpunkte**: Auflistung der kleineren Schwachpunkte der begutachteten Arbeit. Schwachpunkte werden als klein eingestuft, wenn zu deren Verbesserung lediglich kleine Anpassungen nötig ist (z.B. Umschreiben eines einzelnen Absatzes, einige Zusatzanalysen). Kleinere Schwachpunkte werden der Reihe nach aufgelistet, wie sie im Manuskript vorkommen. - **Literaturverzeichnis**: Auflistung der neu referenzierten Literatur, die nicht in der begutachteten Arbeit vorkommt. Es ist zwar noch unüblich, ein Literaturverzeichnis in einem Gutachten einzufügen, doch es entspricht guter Praxis.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/12-publishing.html#struktur"
       },
       {
         "title": "Inhalt",
@@ -1202,7 +1306,8 @@
             "title": "Inhalt von Gutachten",
             "content": "Gutachten setzen sich primär mit dem Inhalt und der Struktur eines Manuskripts auseinander und kaum mit der Einhaltung formaler Kriterien. Es sei denn, die formalen Kriterien wurden überhaupt nicht eingehalten."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/12-publishing.html#inhalt"
       },
       {
         "title": "Beispiele von Gutachten",
@@ -1214,7 +1319,8 @@
             "title": "Weitere Beispiele",
             "content": "Einige Zeitschriften haben einen offenen und transparenten Publikationsprozess. Neben der endgültig publizierten Version eines Manuskripts werden auch die vorangegangenen Version archiviert und veröffentlicht. Gleichzeitig werden die Gutachten sowie die Antworten darauf archiviert und veröffentlicht. Diese könnten als Möglichkeit genutzt werden, um sich mit Gutachten vertraut zu machen. Nachfolgend werden zwei Studien aufgeführt, bei denen der Begutachtungsprozess offen und transparent war: - die Studie zum [Zusammenspiel von Tageszeit und Chronotyp und dessen Auswirkungen auf kognitive Leistungen](https://online.ucpress.edu/collabra/article-pdf/9/1/88337/792839/collabra_2023_9_1_88337.pdf) [@reymermetrothen2023]. In diesem Fall ist der Begutachtungsprozess unter *Supplementary Material* aufgeführt. - die Studie zur [Interferenzkontrolle im Arbeitsgedächtnis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0243053) [@rey-mermet_2020_PLOSONE]. In diesem Fall ist der Begutachtungsprozess unter [Peer Review](https://journals.plos.org/plosone/article/peerReview?id=10.1371/journal.pone.0243053) zu finden."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/12-publishing.html#beispiele-von-gutachten"
       }
     ]
   },
@@ -1225,7 +1331,8 @@
         "title": "Vorträge",
         "level": 1,
         "content": "Neben dem schriftlichen Kommunikationsformat, dessen Basis das Manuskript ist, sind vor allem zwei verbale Kommunikationsformate im wissenschaftlichen Kontext gebräuchlich. Zum einen ist das der wissenschaftliche Vortrag (d.h., zu Foliensatz gesprochene Präsentation). Zum anderen ist das das wissenschaftliche Poster (d.h., zu Poster gesprochene Präsentation). Für jedes dieser Kommunikationsformate gibt es Richtlinien, welchen eine gewisse Allgemeingültigkeit zukommen. In diesem Kapitel werden diese Richtlinien für wissenschaftliche Vorträge präsentiert. Im nächsten Kapitel werden sie für wissenschaftliche Poster präsentiert.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/13-talk.html"
       },
       {
         "title": "Inhalte eines Vortrages",
@@ -1252,25 +1359,29 @@
             "title": "Erklärung der Abbildungen bei der mündlichen Präsentation",
             "content": "Abbildungen müssen bei der mündlichen Präsentation erklärt werden. Der Grund dafür ist, dass die Abbildungen für die Zuhörerinnen und Zuhörer nicht direkt und im Detail selbsterklärend sind. Im Fall einer Abbildung die im Methodenteil präsentiert wird, wird zum Beispiel erwartet, dass erklärt wird, was in der Abbildung gezeigt wird (z.B. die Reihenfolge eines Durchgangs, welches mit der Präsentation eines Fixationskreuzes beginnt und dann von der Präsentation eines Reizes gefolgt wird, usw.). Im Fall einer Abbildung im Resultate-Teil mit deskriptiver Statistik wird erwartet, dass folgende Elemente der Abbildung erklärt werden: - was auf der X-Achse und der Y-Achse abgebildet wird - was für Bedingungen in der Legende dargestellt sind - die Unterschiede bzw. die Ähnlichkeiten zwischen verschiedenen experimentellen Bedingungen, welche in der Abbildung ersichtlich sind"
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/13-talk.html#inhalte-eines-vortrages"
       },
       {
         "title": "Formale Aspekte eines wissenschaftlichen Vortrags",
         "level": 2,
         "content": "- Nach Möglichkeit sollte ein 16:9 Folienformat verwendet werden. - Es wird auf starke Kontraste geachtet, die bei Projektionen des Vortrags auch bei ungünstigen Beleuchtungsverhältnissen gut wahrgenommen werden. Es sollten nicht zu viele Farben verwendet werden, da dies einen negativen Einfluss auf den Kontrast haben kann. - Grosse Schriften werden verwendet. Diese sollen aus grosser Distanz in einem vollen Vorlesungssaal gut gelesen werden können: - zwischen 40 und 50 Punkte für die Titelfolie - zwischen 24 und 36 Punkte für den Haupttext - zwischen 16 und 20 Punkte für weniger relevante Informationen - Allfällige Referenzen werden entweder mit der Nennung der Autoren, des Publikationsjahrs und der offiziellen Abkürzung der Zeitschrift auf den entsprechenden Folien oder mit Referenzen ohne Zeitschriftenangabe und einem Literaturverzeichnis am Schluss berichtet. Es sollte sich bei der Betreuerin oder dem Betreuer informiert werden, welche Option erforderlich ist.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/13-talk.html#formale-aspekte-eines-wissenschaftlichen-vortrags"
       },
       {
         "title": "Praktische Hinweise zur Vortragsgestaltung",
         "level": 2,
         "content": "Da nun alle formalen Aspekte eines Vortrags bekannt sind, möchten wir noch ein paar Hinweise hinsichtlich der Vorbereitung geben. Bei der Vorbereitung eines Vortrags ist es wichtig, die Elemente zu bestimmen, die im Vortrag enthalten sein sollen und diese in eine logische Reihenfolge zu bringen. Folgende Fragen können dabei hilfreich sein: - Welche Elemente sollen im Vortrag enthalten sein? - Welches sind die wichtigsten Aussagen? - Wie sollen die Elemente dargestellt werden (als Text, Tabelle oder Abbildung)? - Wie sollen die einzelnen Elemente auf den Folien angeordnet werden? - Enthält jede Folie eine zentrale Aussage? - In welcher Reihenfolge ergeben die Aussagen am meisten Sinn (logischer Aufbau)? Nach Vorbereitung und Beantwortung dieser Fragen kommt die Realisierung des Vortrags. Dies kann zum Beispiel mit Powerpoint oder dem Beamer Package in LaTeX / [Overleaf](https://www.overleaf.com/) gemacht werden.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/13-talk.html#praktische-hinweise-zur-vortragsgestaltung"
       },
       {
         "title": "Beispiele von Vorträgen",
         "level": 2,
         "content": "Nachfolgend werden einige Beispiele von Vorträgen aufgeführt. Die Vorträge folgen mehr oder weniger diesen Richtlinien. Dies verdeutlicht, dass es keine festen Regeln bei den Vorträgen gibt, wie das mit den APA Regeln für das Manuskript der Fall ist. Zusätzlich zu den Vorträgen verlinken wir auch die dazugehörigen wissenschaftlichen Publikationen. Dies erlaubt einzuschätzen, wie detailliert in Vorträgen berichtet wird. - *Beispiel 1*: Zusammenspiel von Tageszeit und Chronotyp und dessen Auswirkungen auf kognitive Leistungen [@reymermetrothen2023] - [Vortrag](resources/talk_example1_TeaP2023Rey-Mermet.pdf) - [Artikel](https://online.ucpress.edu/collabra/article-pdf/9/1/88337/792839/collabra_2023_9_1_88337.pdf) - *Beispiel 2*: Aufmerksamkeitskontrolle aus Arbeitsgedächtnisaufgaben [@reymermetrothen2023a] - [Vortrag](resources/talk_example2_ESCoP2023Rey-Mermet.pdf) - [Vorabdruck](https://osf.io/preprints/psyarxiv/3vgu2) - *Beispiel 3*: Sequentielle Konfliktlösung [@reymermetetal2019a] - [Vortrag](resources/talk_example3_TeaP2019Rey-Mermet.pdf) - [Artikel](https://www.sciencedirect.com/science/article/abs/pii/S105381191832175X?via%3Dihub) - [Nachabdruck](https://osf.io/7jekh) - *Beispiel 4*: Tageszeiteffekten bei prospektivem Gedächtnis [@rothenmeier2017] - [Vortrag](resources/talk_example4_TeaP2017Rothen.pdf) - [Artikel](https://www.tandfonline.com/doi/full/10.1080/13825585.2016.1238444)",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/13-talk.html#beispiele-von-vortr%C3%A4gen"
       },
       {
         "title": "Üben des Vortrags",
@@ -1282,7 +1393,8 @@
             "title": "Die Folien sind die Notizen",
             "content": "Die Inhalte der Folien sollen als Notizen verwendet werden, und der Vortrag sollte frei gehalten werden (d.h. **ohne zusätzliche Notizen**). Wenn dies gelingt, kann man sicher sein, dass die Materie gut verstanden wurde. Falls zusätzliche Notizen benötigt werden, deutet das darauf hin, dass die Materie nicht genug gut verstanden wurde. In diesem Fall sollte man sich erneut mit der Materie auseinandersetzen, bis der Vortrag frei gehalten werden kann. Nur so kann das Publikum von den Inhalten des Vortrags überzeugt werden."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/13-talk.html#%C3%BCben-des-vortrags"
       }
     ]
   },
@@ -1293,7 +1405,8 @@
         "title": "Poster",
         "level": 1,
         "content": "Neben wissenschaftlichen Artikeln und Vorträgen sind auch Poster ein weiteres Mittel zur Kommunikation wissenschaftlicher Befunde. Dieses Kapitel beschäftigt sich mit den Richtlinien für wissenschaftliche Poster.",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/14-poster.html"
       },
       {
         "title": "Inhalte eines Posters",
@@ -1330,7 +1443,8 @@
             "title": "## APA Regeln beim Poster",
             "content": "Beim Poster gibt es keine festen Regeln, wie es beim Manuskript mit dem APA-Manual der Fall ist. Trotzdem empfehlen wir auch beim Poster den APA Regeln zu folgen. Es gibt zwei Gründe dafür. Da erstens diese Regeln bekannt sind, erlauben sie eine vereinfachte Verarbeitung der Information für die Leserinnen und Leser. Somit kann die Person auf den Inhalt fokussieren. Zweitens erfordern die APA-Richtlinien Referenzen. Somit wird [Plagiarismus](#plagiarism) vermieden. Entsprechend wird für Referenzen im Text ein Literaturverzeichnis erwartet. Umgekehrt gilt auch: Wenn ein Literaturverzeichnis vorhanden ist, werden im Text Referenzen erwartet."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/14-poster.html#inhalte-eines-posters"
       },
       {
         "title": "Formale Aspekte eines Posters",
@@ -1342,7 +1456,8 @@
             "title": "Postergestaltung als eine Kunstform",
             "content": "Bei der Postergestaltung handelt es sich in einem gewissen Sinne auch um eine Kunstform mit Gegensätzen: - Eine schlichte und nüchterne Gestaltung wirkt wissenschaftlicher.\\ ABER: Das Poster sollte trotzdem ein «Hingucker» sein. - Das Poster sollte mit möglichst wenig Text auskommen.\\ ABER: Man sollte den Inhalt des Posters ohne zusätzliche Erklärungen verstehen können."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/14-poster.html#formale-aspekte-eines-posters"
       },
       {
         "title": "Praktische Hinweise zur Postergestaltung",
@@ -1354,7 +1469,8 @@
             "title": "Skizze",
             "content": "Ein empfehlenswerter erster Schritt vor der tatsächlichen Umsetzung besteht darin, eine Skizze des Posters auf Papier zu erstellen. Diese erlaubt einen raschen und präzisen Überblick über den Inhalt und die Darstellung des Inhalts zu gewinnen. Dazu gehört auch ein Entwurf der einzelnen Elemente, des Textes, der Abbildungen und der Gestaltung."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/14-poster.html#praktische-hinweise-zur-postergestaltung"
       },
       {
         "title": "Schriftliche versus mündliche Präsentation",
@@ -1366,13 +1482,15 @@
             "title": "Mündliche Präsentation von Abbildungen",
             "content": "Es wird empfohlen, vor allem Abbildungen zu brauchen, um auf dem Poster Informationen zu vermitteln. Dies bedeutet auch, dass diese Abbildungen bei der mündlichen Präsentation erklärt werden müssen. Der Grund dafür ist, dass die Abbildungen für die Zuhörerinnen und Zuhörer nicht direkt und im Detail selbsterklärend sind. Im Fall einer Abbildung die im Methodenteil präsentiert wird, wird zum Beispiel erwartet, dass es erklärt wird, was in der Abbildung gezeigt wird (z.B. die Reihenfolge eines Durchgangs, welches mit der Präsentation eines Fixationskreuzes beginnt und dann von der Präsentation eines Reizes gefolgt wird, usw.). Im Fall einer Abbildung im Resultate-Teil mit deskriptiver Statistik wird erwartet, dass folgende Elemente der Abbildung erklärt werden: - was auf der X-Achse und der Y-Achse abgebildet wird - was für Bedingungen in der Legende dargestellt sind - die Unterschiede bzw. die Ähnlichkeiten zwischen verschiedenen experimentellen Bedingungen, welche in der Abbildung ersichtlich sind"
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/14-poster.html#schriftliche-versus-m%C3%BCndliche-pr%C3%A4sentation"
       },
       {
         "title": "Posterbeispiele",
         "level": 2,
         "content": "Nachfolgend werden einige Beispiele von Postern aufgeführt. Die Poster folgen mehr oder weniger diesen Richtlinien. Dies verdeutlicht, dass es keine festen Regeln bei der Postergestaltung gibt, wie mit den APA Regeln für das Manuskript. Zusätzlich zu den Postern verlinken wir auch -- wenn möglich -- die dazugehörigen wissenschaftlichen Publikationen. Dies erlaubt einzuschätzen, wie detailliert Informationen auf einem wissenschaftlichen Poster dargestellt werden. - *Beispiel 1*: Zusammenspiel von Tageszeit und Chronotyp und dessen Auswirkungen auf kognitive Leistungen [@reymermetrothen2023] - [Poster](resources/poster_example1_SPS2022Rey-Mermet.pdf) - [Artikel](https://online.ucpress.edu/collabra/article-pdf/9/1/88337/792839/collabra_2023_9_1_88337.pdf) - *Beispiel 2*: Visuelle Verarbeitung - [Poster](resources/poster_example2_SPS2022Rothen.pdf) - *Beispiel 3*: Sequentielle Konfliktlösung [@reymermetetal2019a] - [Poster](resources/poster_example3_SPR2018Rey-Mermet.pdf) - [Artikel](https://www.sciencedirect.com/science/article/abs/pii/S105381191832175X?via%3Dihub) - [Nachabdruck](https://osf.io/7jekh) - *Beispiel 4*: Einfluss von Wiederholung auf synästhetische Konsistenz [@ovallefresarothen2019] - [Poster](resources/poster_example4_OvalleFresa.pdf) - [Artikel](https://www.sciencedirect.com/science/article/abs/pii/S1053810018305610?via%3Dihub) - [Nachabdruck](https://osf.io/preprints/psyarxiv/njzhf)",
-        "callouts": []
+        "callouts": [],
+        "weblink": "https://wissarbkom.bitbucket.io/14-poster.html#posterbeispiele"
       },
       {
         "title": "Üben der Posterpräsentation",
@@ -1384,7 +1502,8 @@
             "title": "Das Poster ist der Notizzettel",
             "content": "Die Inhalte des Posters sollen als Notizen verwendet werden, und die Präsentation des Posters sollte frei gehalten werden (d.h. **ohne zusätzliche Notizen**). Wenn dies gelingt, kann man sicher sein, dass die Materie gut verstanden wurde. Falls zusätzliche Notizen benötigt werden, deutet das darauf hin, dass die Materie nicht genug gut verstanden wurde. In diesem Fall sollte man sich erneut mit der Materie auseinandersetzen, bis die Präsentation des Posters frei gehalten werden kann. Nur so kann das Publikum von den Inhalten des Posters überzeugt werden."
           }
-        ]
+        ],
+        "weblink": "https://wissarbkom.bitbucket.io/14-poster.html#%C3%BCben-der-posterpr%C3%A4sentation"
       }
     ]
   }

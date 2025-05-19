@@ -1,6 +1,7 @@
 import os
 import json
 import re
+import urllib.parse  # ✅ For URL encoding
 
 def clean_inline(text):
     """Clean inline syntax but preserve meaningful text."""
@@ -52,12 +53,22 @@ def parse_callout(lines, start_index):
         "content": clean_block('\n'.join(callout_content))
     }, i
 
+def slugify(text):
+    """Generate an anchor-compatible slug from German titles, keeping umlauts."""
+    text = text.lower()
+    text = re.sub(r'[^\w\säöüß.-]', '', text)  # Keep German characters
+    text = re.sub(r'\s+', '-', text)  # Replace spaces with hyphens
+    return text.strip('-')
+
 def parse_quarto_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
     sections = []
     current_section = None
+    current_anchor = ""
+    base_name = os.path.splitext(os.path.basename(file_path))[0]
+    html_file = f"{base_name}.html"
 
     i = 0
     while i < len(lines):
@@ -71,12 +82,33 @@ def parse_quarto_file(file_path):
                     sections.append(current_section)
 
             level = len(line.split()[0])
-            title = clean_inline(line.lstrip('#').strip())
+            raw_title = line.lstrip('#').strip()
+
+            # Extract anchor (e.g., {#avp})
+            anchor_match = re.search(r'\{#([\w-]+)\}', raw_title)
+            anchor = anchor_match.group(1) if anchor_match else ""
+
+            title = clean_inline(raw_title)
+
+            # Generate anchor from title if missing, then URL encode
+            if anchor:
+                encoded_anchor = urllib.parse.quote(anchor, safe='')
+            else:
+                generated_anchor = slugify(title)
+                encoded_anchor = urllib.parse.quote(generated_anchor, safe='')
+
+            if level == 1:
+                weblink = f"https://wissarbkom.bitbucket.io/{html_file}"
+            else:
+                weblink = f"https://wissarbkom.bitbucket.io/{html_file}#{encoded_anchor}"
+
+
             current_section = {
                 "title": title,
                 "level": level,
                 "content": "",
-                "callouts": []
+                "callouts": [],
+                "weblink": weblink
             }
             i += 1
             continue
@@ -88,7 +120,8 @@ def parse_quarto_file(file_path):
                     "title": "",
                     "level": 1,
                     "content": "",
-                    "callouts": []
+                    "callouts": [],
+                    "weblink": f"https://wissarbkom.bitbucket.io/{html_file}"
                 }
             callout, next_index = parse_callout(lines, i)
             current_section["callouts"].append(callout)
@@ -114,7 +147,7 @@ def parse_quarto_file(file_path):
 
 def main():
     quarto_folder = "QuartoFiles"
-    output_file = "document.json"
+    output_file = "document2.json"
 
     parsed_files = []
 

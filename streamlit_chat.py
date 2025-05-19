@@ -28,7 +28,8 @@ document_dict = {}
 for doc in document_data:
     for section in doc['sections']:
         key = (doc['filename'], section['title'])
-        document_dict[key] = section['content']
+        document_dict[key] = section  # Store the entire section dictionary, including weblink
+
 
 # Define a threshold for minimum similarity
 SIMILARITY_THRESHOLD = 0.3  # Adjust this value based on experimentation
@@ -73,8 +74,13 @@ def get_response(user_query):
         section_title = df.iloc[index]['section_title']
         content_key = (filename, section_title)
         if content_key in document_dict:
-            context += document_dict[content_key] + " \n\n"
-            references.append({"filename": filename, "title": section_title})  # Collect reference details
+            context += document_dict[content_key]['content'] + " \n\n"
+            section = document_dict[content_key]
+            references.append({
+                "filename": filename,
+                "title": section_title,
+                "weblink": section.get("weblink", "")
+            }) 
 
     # Generate response using OpenAI's LLM
     if context.strip():
@@ -134,7 +140,12 @@ if user_query:
     if references:
         st.write("### Quellenangaben:")
         for ref in references:
-            st.write(f"- **Datei**: {ref['filename']} | **Titel**: {ref['title']}")
+            link_text = f"{ref['title']} ({ref['filename']})"
+            if ref.get("weblink"):
+                st.markdown(f"- [{link_text}]({ref['weblink']})", unsafe_allow_html=True)
+            else:
+                st.write(f"- **Datei**: {ref['filename']} | **Titel**: {ref['title']}")
+
     else:
         st.write("### Hinweis:")
         st.write("Die Frage scheint nicht im Zusammenhang mit den Inhalten der Wissensdatenbank zu stehen. Frage etwas zum Thema wissenschaftliches Arbeiten und Kommunizieren.")
