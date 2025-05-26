@@ -47,6 +47,13 @@ This project is about creating a knowledge base and chatting about these content
 ### 3. Start chatting (on localhost)
 * enter in terminal: `streamlit run streamlit_chat.py`
 
+
+### Models used
+* OpenAI's `text-embedding-3-small` for creating embeddings.
+* OpenAI's `gpt-3.5-turbo` for generating answers based on the context retrieved from the document base.
+* Maybe switch to `gpt-4` if quality and reliability are priorities. Use GPT-3.5 Turbo only if speed or budget is critical.
+
+
 ## Next steps
 - [x] Create a frontend
 - [ ] use vector DB and indexing for faster performance

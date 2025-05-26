@@ -62,12 +62,14 @@ def get_response(user_query):
         content = row['content']
         section_title = row['callout_title'] if pd.notna(row['callout_title']) and row['callout_title'].strip() else row['section_title']
         weblink = row.get("weblink", "")
+        similarity = similarities.iloc[index] # grab similarity for this item
 
         context += content + "\n\n"
         references.append({
             "filename": row['filename'],
             "title": section_title,
-            "weblink": weblink
+            "weblink": weblink,
+            "similarity": similarity
         })
 
     # Generate response using OpenAI's LLM
@@ -76,11 +78,13 @@ def get_response(user_query):
             response = client.chat.completions.create(
                 model="gpt-3.5-turbo",
                 messages=[
-                    {"role": "system", "content": "Du bist ein Assistent, der Fragen zu Dokumenten detailliert und professionell anhand des untenstehenden Kontextes beantwortet. Sollte die Frage aufgrund des Kontextes nicht beantwortet werden können, antworte bitte mit \"Deine Frage scheint nicht Teil der Wissensdatenbank zu sein. Frage etwas zum Thema wissenschaftliches Arbeiten und Kommunizieren.\""},
+                    {"role": "system", "content": 
+                    "Du bist ein hilfreicher und professioneller KI-Assistent. Du beantwortest ausschliesslich Fragen zum Lehrbuch \"Wissenschaftliches Arbeiten und Kommunizieren\". Deine Antworten sollen klar, korrekt, präzise und fachlich fundiert sein. Falls die gestellte Frage nicht eindeutig auf Basis des Kontexts beantwortet werden kann, sage: \"Deine Frage scheint nicht Teil der Wissensdatenbank zu sein. Frage etwas zum Thema.\" Erfinde keine Informationen und nutze ausschliesslich den bereitgestellten Kontext."
+                    },
                     {"role": "user", "content": f"Kontext: {context}\n\nFrage: {user_query}\nAntwort:"}
                 ],
-                temperature=0,
-                max_tokens=300
+                temperature=0, # low temperature for factual responses
+                max_tokens=800
             )
 
             if response.choices:
@@ -126,13 +130,26 @@ if user_query:
     
     # Display references or an unrelated message if no references
     if references:
-        st.write("### Quellenangaben:")
+        st.write("### Quellen:")
         for ref in references:
-            link_text = f"{ref['title']} ({ref['filename']})"
+            score = ref.get("similarity", 0)
+
+            # Determine icon based on score
+            if score >= 0.8:
+                icon = "✅"
+            elif score >= 0.5:
+                icon = "ℹ️"
+            else:
+                icon = "⚠️"
+
+            # Format similarity score as percentage or float
+            score_str = f"{score:.2f}"
+
+            link_text = f"{ref['title']} ({ref['filename']}) - Ähnlichkeit: {score_str} {icon}"
             if ref.get("weblink"):
                 st.markdown(f"- [{link_text}]({ref['weblink']})", unsafe_allow_html=True)
             else:
-                st.write(f"- **Datei**: {ref['filename']} | **Titel**: {ref['title']}")
+                st.write(f"- {link_text}")
     else:
         st.write("### Hinweis:")
         st.write("Die Frage scheint nicht im Zusammenhang mit den Inhalten der Wissensdatenbank zu stehen. Frage etwas zum Thema wissenschaftliches Arbeiten und Kommunizieren.")
