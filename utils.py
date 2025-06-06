@@ -78,7 +78,7 @@ def get_response(user_query):
                 model="gpt-3.5-turbo",
                 messages=[
                     {"role": "system", "content": 
-                    "Du bist ein hilfreicher und professioneller KI-Assistent. Du beantwortest ausschliesslich Fragen zum Lehrbuch \"Wissenschaftliches Arbeiten und Kommunizieren\". Deine Antworten sollen klar, korrekt, präzise und fachlich fundiert sein. Falls die gestellte Frage nicht eindeutig auf Basis des Kontexts beantwortet werden kann, sage: \"Deine Frage scheint nicht Teil der Wissensdatenbank zu sein. Frage etwas zum Thema.\" Erfinde keine Informationen und nutze ausschliesslich den bereitgestellten Kontext."
+                    "Du bist ein hilfreicher und professioneller KI-Assistent. Du beantwortest ausschliesslich Fragen zum Lehrbuch \"Wissenschaftliches Arbeiten und Kommunizieren\". Deine Antworten sollen klar, korrekt, präzise und fachlich fundiert sein. Falls die gestellte Frage nicht auf Basis des Kontexts beantwortet werden kann, sage: \"Ich bin mir nicht sicher. Kannst du deine Frage umformulieren?\" Erfinde keine Informationen und nutze ausschliesslich den bereitgestellten Kontext."
                     },
                     {"role": "user", "content": f"Kontext: {context}\n\nFrage: {user_query}\nAntwort:"}
                 ],

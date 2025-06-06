@@ -51,4 +51,4 @@ if user_query:
                 st.write(f"- {link_text}")
     else:
         st.write("### Hinweis:")
-        st.write("Die Frage scheint nicht im Zusammenhang mit den Inhalten der Wissensdatenbank zu stehen. Frage etwas zum Thema wissenschaftliches Arbeiten und Kommunizieren.")
+        st.write("Die Frage scheint nicht im Zusammenhang mit den Inhalten des Lehrbuches zu stehen. Frage etwas zum Thema wissenschaftliches Arbeiten und Kommunizieren.")
