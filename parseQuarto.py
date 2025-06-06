@@ -1,7 +1,7 @@
 import os
 import json
 import re
-import urllib.parse  # ✅ For URL encoding
+import urllib.parse  # For URL encoding
 
 def clean_inline(text):
     """Clean inline syntax but preserve meaningful text."""
@@ -66,7 +66,6 @@ def parse_quarto_file(file_path):
 
     sections = []
     current_section = None
-    current_anchor = ""
     base_name = os.path.splitext(os.path.basename(file_path))[0]
     html_file = f"{base_name}.html"
 

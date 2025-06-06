@@ -56,6 +56,7 @@ Ab wievielen Bedingungen soll ich die Werte in Tabellenform präsentieren?,08-co
 Wie sieht die Formatierung aus?,09-formatting.qmd,09-formatting.qmd,06-manuscript.qmd,09-formatting.qmd,"['09-formatting.qmd', '06-manuscript.qmd', '09-formatting.qmd']",1,1,1
 Wann schreibt man eine Null vor dem Dezimaltrennzeichen?,09-formatting.qmd,09-formatting.qmd,09-formatting.qmd,07-structure.qmd,"['09-formatting.qmd', '09-formatting.qmd', '07-structure.qmd']",1,1,1
 Wie muss man runden?,09-formatting.qmd,09-formatting.qmd,10-writing.qmd,14-poster.qmd,"['09-formatting.qmd', '10-writing.qmd', '14-poster.qmd']",1,1,1
+Wie muss man Zahlen runden?,09-formatting.qmd,09-formatting.qmd,09-formatting.qmd,08-content.qmd,"['09-formatting.qmd', '09-formatting.qmd', '08-content.qmd']",1,1,1
 Wie ist das Literaturverzeichnis formatiert?,09-formatting.qmd,09-formatting.qmd,09-formatting.qmd,09-formatting.qmd,"['09-formatting.qmd', '09-formatting.qmd', '09-formatting.qmd']",1,1,1
 Wie sind die Referenzen geordnet?,09-formatting.qmd,09-formatting.qmd,09-formatting.qmd,09-formatting.qmd,"['09-formatting.qmd', '09-formatting.qmd', '09-formatting.qmd']",1,1,1
 Wie werden Fussnoten formatiert?,09-formatting.qmd,09-formatting.qmd,08-content.qmd,09-formatting.qmd,"['09-formatting.qmd', '08-content.qmd', '09-formatting.qmd']",1,1,1
@@ -72,6 +73,7 @@ Wie soll ich den Text verfassen?,10-writing.qmd,10-writing.qmd,10-writing.qmd,11
 Was ist das Ziel bei der internen Revision?,11-cycle.qmd,11-cycle.qmd,11-cycle.qmd,11-cycle.qmd,"['11-cycle.qmd', '11-cycle.qmd', '11-cycle.qmd']",1,1,1
 "Was bedeutet ""major revision""?",12-publishing.qmd,12-publishing.qmd,11-cycle.qmd,11-cycle.qmd,"['12-publishing.qmd', '11-cycle.qmd', '11-cycle.qmd']",1,1,1
 Was sind die formalen Vorgaben bei einem Vortrag?,13-talk.qmd,13-talk.qmd,13-talk.qmd,13-talk.qmd,"['13-talk.qmd', '13-talk.qmd', '13-talk.qmd']",1,1,1
+Muss ich Inferenzstatistik auf einem Poster berichten?,14-poster.qmd,14-poster.qmd,14-poster.qmd,14-poster.qmd,"['14-poster.qmd', '14-poster.qmd', '14-poster.qmd']",1,1,1
 Wie muss ich mein Poster formatieren?,14-poster.qmd,14-poster.qmd,14-poster.qmd,14-poster.qmd,"['14-poster.qmd', '14-poster.qmd', '14-poster.qmd']",1,1,1
 Was muss ich bei der Postergestaltung beachten?,14-poster.qmd,14-poster.qmd,14-poster.qmd,14-poster.qmd,"['14-poster.qmd', '14-poster.qmd', '14-poster.qmd']",1,1,1
-"Ich habe eine Frage bezüglich APA 7-Richtlinien für die Referenzierung im Fliesstext. Ich habe einen Paragraphen, in dem ich eine Studie referenziere. Wie referenziere ich dieselbe Studie im selben paragraphen?",none,14-poster.qmd,09-formatting.qmd,09-formatting.qmd,"['14-poster.qmd', '09-formatting.qmd', '09-formatting.qmd']",0,0,0
+Gib mir ein paar Posterbeispiele,14-poster.qmd,14-poster.qmd,14-poster.qmd,14-poster.qmd,"['14-poster.qmd', '14-poster.qmd', '14-poster.qmd']",1,1,1
