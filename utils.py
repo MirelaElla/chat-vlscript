@@ -1,11 +1,20 @@
 import os
+import ast
 import pandas as pd
 import numpy as np
 from numpy.linalg import norm
 from dotenv import load_dotenv
 from openai import OpenAI
-import ast
 import streamlit as st
+
+# Definitions
+EMBEDDING_MODEL = "text-embedding-3-small"  # Default embedding model
+CHAT_MODEL = "gpt-3.5-turbo"  # Default chat model
+EMBEDDING_DIMENSION = 1536  # text-embedding-3-small dimension (has to be adjusted if using a different model)
+SIMILARITY_THRESHOLD = 0.3 # Define a threshold for minimum similarity
+MAX_TOKENS = 800
+TEMPERATURE = 0
+TOP_K = 3
 
 # Load environment variables
 load_dotenv()
@@ -19,37 +28,38 @@ df = pd.read_csv('embeddings.csv')
 # Convert string back to numpy arrays in the 'embedding' column
 df['embedding'] = df['embedding'].apply(ast.literal_eval).apply(np.array)
 
-# Define a threshold for minimum similarity
-SIMILARITY_THRESHOLD = 0.3  # Adjust this value based on experimentation
-
-def get_embedding(text, model="text-embedding-3-small"):
+# get_embedding function to handle text input and return embeddings
+def get_embedding(text, model=EMBEDDING_MODEL):
     if not isinstance(text, str) or not text.strip():
-        st.warning("Invalid or empty text input detected.")
-        return np.zeros(1536)  # Return a zero vector for invalid input
+        print("Invalid or empty text input detected, returning zero vector.")
+        return np.zeros(EMBEDDING_DIMENSION)  # Return zero vector for invalid input
     text = text.replace("\n", " ")  # Normalize newlines
     try:
-        response = client.embeddings.create(input=text, model=model)
-        response_dict = response.to_dict()  # Convert the response object to a dictionary
-        embedding_vector = response_dict['data'][0]['embedding']
-        return embedding_vector
+        response = client.embeddings.create(input=[text], model=model)
+        response_dict = response.to_dict()
+        return response_dict['data'][0]['embedding']
     except Exception as e:
-        st.error(f"An error occurred: {e}")
-        return np.zeros(1536)  # Return a zero vector if there's an error
+        print(f"An error occurred during embedding: {e}")
+        return np.zeros(EMBEDDING_DIMENSION)
 
-def safe_divide(a, b):
-    return a / b if b != 0 else 0
+# Function for cosine similarity calculation
+def cosine_similarity(a, b):
+    """Calculate cosine similarity between two vectors."""
+    norm_a = norm(a)
+    norm_b = norm(b)
+    if norm_a == 0 or norm_b == 0:
+        return 0
+    return np.dot(a, b) / (norm_a * norm_b)
 
 def get_response(user_query):
-    user_embedding = get_embedding(user_query, model='text-embedding-3-small')
+    user_embedding = get_embedding(user_query)
     user_embedding_np = np.array(user_embedding)
 
     # Compute cosine similarity between user query and all document embeddings
-    similarities = df['embedding'].apply(
-        lambda x: np.dot(x, user_embedding_np) / safe_divide(norm(x) * norm(user_embedding_np), 1)
-    )
+    similarities = df['embedding'].apply(lambda x: cosine_similarity(x, user_embedding_np))
 
-    # Find the indices of the top 3 most similar documents
-    top_indices = similarities.nlargest(3).index
+    # Find the indices of the top K most similar documents
+    top_indices = similarities.nlargest(TOP_K).index
 
     # Check if the top similarity score meets the threshold
     if similarities.iloc[top_indices[0]] < SIMILARITY_THRESHOLD:
@@ -75,15 +85,15 @@ def get_response(user_query):
     if context.strip():
         try:
             response = client.chat.completions.create(
-                model="gpt-3.5-turbo",
+                model=CHAT_MODEL,
                 messages=[
                     {"role": "system", "content": 
                     "Du bist ein hilfreicher und professioneller KI-Assistent. Du beantwortest ausschliesslich Fragen zum Lehrbuch \"Wissenschaftliches Arbeiten und Kommunizieren\". Deine Antworten sollen klar, korrekt, präzise und fachlich fundiert sein. Falls die gestellte Frage nicht auf Basis des Kontexts beantwortet werden kann, sage: \"Ich bin mir nicht sicher. Kannst du deine Frage umformulieren?\" Erfinde keine Informationen und nutze ausschliesslich den bereitgestellten Kontext."
                     },
                     {"role": "user", "content": f"Kontext: {context}\n\nFrage: {user_query}\nAntwort:"}
                 ],
-                temperature=0,
-                max_tokens=800
+                temperature=TEMPERATURE,
+                max_tokens=MAX_TOKENS
             )
 
             if response.choices:
