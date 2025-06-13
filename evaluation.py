@@ -1,17 +1,14 @@
 import streamlit as st
 import pandas as pd
 import time
-from utils import get_embedding, cosine_similarity, df, retrieve_top_k, generate_answer
+from utils import get_embedding, cosine_similarity, df, retrieve_top_k, generate_answer, TOP_K
 
 # Load test set
 testset = pd.read_excel("testset.xlsx")
 
-# Evaluation parameters
-TOP_K = 3  # Must match what's in utils.py
-
 # Streamlit UI
 st.title("📊 RAG Evaluation Dashboard")
-st.markdown("Evaluate performance of the RAG system on testset.xlsx.")
+st.markdown("Evaluate performance of the RAG system on testset.xlsx. Note that this may take some time depending on the size of the test set and the models used.")
 
 if st.button("🔍 Run Evaluation"):
     embedding_times = []
@@ -32,7 +29,7 @@ if st.button("🔍 Run Evaluation"):
 
         # Measure retrieval time
         start = time.time()
-        context, references = retrieve_top_k(query_embedding, question)
+        context, references = retrieve_top_k(query_embedding)
         retrieval_duration = time.time() - start
         retrieval_times.append(retrieval_duration)
 
