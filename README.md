@@ -40,16 +40,33 @@ This project is an app that allows users to chat about the contents of a knowled
 * Maybe switch to `gpt-4` if quality and reliability are priorities. Use GPT-3.5 Turbo if speed or budget is critical.
 
 ## Evaluation
-The notebook `eval.ipynb`evaluates retrieval performance on over 70 question-context pairs (cf. `testset.xlsx`). Retrieval accuracy reaches 91%. Results are saved in `retrieval_evaluation_results.csv`. 
-Retrieval speed is ... . This could be improved by using a vector database and proper indexing.
+To run the evaluation, enter: `streamlit run evaluation.py`. 
+The script evaluates retrieval performance (speed & accuracy) of the RAG system using a set of over 70 question-context pairs defined in `testset.xlsx`. 
 
-Generated responses to these questions were manually evaluated for correctness. Overall, the answers were correct with a few exceptions marked in orange in the column "expected_answer" in `testset.xlsx`. This may be overcome with a more powerful model like GPT-4.
+The **"Run Quantitative Evaluation"** button measures:
+- Average embedding time (OpenAI embedding API)
+- Average retrieval time (top-K cosine similarity search)
+- Average answer generation time (OpenAI chat completion)
+- Retrieval accuracy metrics:
+    - Recall@K *(most important metric)*
+    - Mean Reciprocal Rank (MRR)
+
+**Baseline Quantitative evaluation results:**
+
+![ExampleResults](assets/eval_results_20250613.png)
+
+The **"Run Qualitative Evaluation"** button regenerates LLM answers and saves them (along with top-K retrieval info) to a timestamped .csv file (e.g. rag_qualitative_eval_20250613_152230.csv). You can then manually inspect the answers for correctness or coverage.
+
+**Baseline Qualitative evaluation results:**
+The generated responses were manually evaluated for correctness. Most answers were accurate and well-grounded. A few incorrect responses (marked in orange in the "expected_answer" column of testset.xlsx) indicate areas for improvement. Using a more powerful model like GPT-4 may further improve accuracy and reduce failure cases.
 
 ## Next steps
 - [x] Create a frontend
 - [x] Fix problems related to Swiss German
+- [x] evaluate retrieval speed
+- [x] evaluate retrieval accuracy
+- [x] evaluate answer quality
 - [ ] Implement hybrid search (semantic search + keyword search) for higher similarity scores
-- [ ] evaluate retrieval speed
 - [ ] use vector DB and indexing for faster performance
 - [ ] try other (open source) embedding models like [snowflake-arctic-embed](https://huggingface.co/Snowflake/snowflake-arctic-embed-l-v2.0)  
 - [ ] evaluate retrieval performance with other embedding models
