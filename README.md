@@ -66,6 +66,8 @@ The generated responses were manually evaluated for correctness. Most answers we
 - [x] evaluate retrieval speed
 - [x] evaluate retrieval accuracy
 - [x] evaluate answer quality
+- [x] Recall@5 --> results went up to 95%!
+- [ ] expect several relevantes passages per question
 - [ ] Implement hybrid search (semantic search + keyword search) for higher similarity scores
 - [ ] use vector DB and indexing for faster performance
 - [ ] try other (open source) embedding models like [snowflake-arctic-embed](https://huggingface.co/Snowflake/snowflake-arctic-embed-l-v2.0)  

@@ -34,7 +34,7 @@ if st.button("▶️ Run Quantitative Evaluation"):
 
         # Measure retrieval time
         start = time.time()
-        context, references = retrieve_top_k(query_embedding)
+        context, references = retrieve_top_k(query_embedding, question)
         retrieval_duration = time.time() - start
         retrieval_times.append(retrieval_duration)
 
@@ -71,8 +71,34 @@ if st.button("▶️ Run Quantitative Evaluation"):
         st.metric("MRR", f"{sum(reciprocal_ranks)/len(reciprocal_ranks):.3f}")
 
     st.markdown("---")
-    st.markdown("### 🔍 Test Set Details")
-    st.dataframe(testset)
+        # --- Show failed retrievals ---
+    st.markdown("### ❌ Failed Queries (Recall@{TOP_K} Misses)")
+    failed_logs = []
+
+    for i, row in testset.iterrows():
+        question = row["question"]
+        expected_file = row["file"]
+
+        query_embedding = get_embedding(question)
+        context, references = retrieve_top_k(query_embedding, question)
+
+        top_k_files = [ref["filename"] for ref in references]
+        top_k_scores = [f"{ref['similarity']:.2f}" for ref in references]
+
+        if expected_file not in top_k_files:
+            failed_logs.append({
+                "question": question,
+                "expected_file": expected_file,
+                "top_k_files": ", ".join(top_k_files),
+                "similarity_scores": ", ".join(top_k_scores)
+            })
+
+    if failed_logs:
+        failed_df = pd.DataFrame(failed_logs)
+        st.dataframe(failed_df)
+    else:
+        st.success("🎉 All queries retrieved the correct file within the top-K!")
+
 
 # --- Qualitative Evaluation ---
 st.markdown("---")
@@ -102,7 +128,7 @@ if st.button("▶️ Run Qualitative Evaluation"):
 
         # Retrieval
         start = time.time()
-        context, references = retrieve_top_k(query_embedding)
+        context, references = retrieve_top_k(query_embedding, question)
         retrieval_duration = time.time() - start
         retrieval_times.append(retrieval_duration)
 

@@ -6,6 +6,8 @@ from numpy.linalg import norm
 from dotenv import load_dotenv
 from openai import OpenAI
 import streamlit as st
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity as cosine_sim_sklearn
 
 # Definitions
 EMBEDDING_MODEL = "text-embedding-3-small"  # Default embedding model
@@ -14,7 +16,8 @@ EMBEDDING_DIMENSION = 1536  # text-embedding-3-small dimension (has to be adjust
 SIMILARITY_THRESHOLD = 0.3 # Define a threshold for minimum similarity
 MAX_TOKENS = 800
 TEMPERATURE = 0
-TOP_K = 3
+TOP_K = 5
+ALPHA = 0.9  # Weight for semantic vs lexical similarity in hybrid retrieval (higher value = more semantic, lower value = more lexical)
 
 # Load environment variables
 load_dotenv()
@@ -27,6 +30,11 @@ df = pd.read_csv('embeddings.csv')
 
 # Convert string back to numpy arrays in the 'embedding' column
 df['embedding'] = df['embedding'].apply(ast.literal_eval).apply(np.array)
+
+# Fit TF-IDF vectorizer on your document corpus
+df["content"] = df["content"].astype(str).str.strip()
+tfidf_vectorizer = TfidfVectorizer()
+tfidf_matrix = tfidf_vectorizer.fit_transform(df["content"])
 
 # Embedding function
 def get_embedding(text, model=EMBEDDING_MODEL):
@@ -43,7 +51,7 @@ def get_embedding(text, model=EMBEDDING_MODEL):
         return np.zeros(EMBEDDING_DIMENSION)
 
 # Cosine similarity function
-def cosine_similarity(a, b):
+def cosine_similarity_dense(a, b):
     """Calculate cosine similarity between two vectors."""
     norm_a = norm(a)
     norm_b = norm(b)
@@ -51,11 +59,22 @@ def cosine_similarity(a, b):
         return 0
     return np.dot(a, b) / (norm_a * norm_b)
 
-# Retrieval function
-def retrieve_top_k(user_embedding):
+# Hybrid Retrieval function
+def retrieve_top_k(user_embedding, user_query, alpha=ALPHA):
     user_embedding_np = np.array(user_embedding)
-    similarities = df['embedding'].apply(lambda x: cosine_similarity(x, user_embedding_np))
-    top_indices = similarities.nlargest(TOP_K).index
+
+    # Semantic similarity (existing cosine sim)
+    semantic_similarities = df['embedding'].apply(lambda x: cosine_similarity_dense(x, user_embedding_np)).values
+
+    # Lexical similarity (TF-IDF)
+    user_tfidf = tfidf_vectorizer.transform([user_query])
+    lexical_similarities = cosine_sim_sklearn(user_tfidf, tfidf_matrix).flatten()
+
+    # Combine scores
+    final_scores = alpha * semantic_similarities + (1 - alpha) * lexical_similarities
+
+    # Top-K indices by hybrid score
+    top_indices = np.argsort(final_scores)[-TOP_K:][::-1]
 
     context = ""
     references = []
@@ -64,7 +83,7 @@ def retrieve_top_k(user_embedding):
         content = row['content']
         section_title = row['callout_title'] if pd.notna(row['callout_title']) and row['callout_title'].strip() else row['section_title']
         weblink = row.get("weblink", "")
-        similarity = similarities.iloc[index]
+        similarity = final_scores[index]
 
         context += content + "\n\n"
         references.append({
@@ -73,7 +92,7 @@ def retrieve_top_k(user_embedding):
             "weblink": weblink,
             "similarity": similarity
         })
-    
+
     return context, references
 
 # Answer generation function
@@ -102,9 +121,9 @@ def generate_answer(context, user_query):
         return f"An error occurred while generating the response: {e}"
 
 # Combined for app usage
-def get_response(user_query):
+def get_response(user_query, alpha=ALPHA):
     user_embedding = get_embedding(user_query)
-    context, references = retrieve_top_k(user_embedding)
+    context, references = retrieve_top_k(user_embedding, user_query, alpha)
 
     # Check if top match is above threshold
     if not references or references[0]['similarity'] < SIMILARITY_THRESHOLD:
