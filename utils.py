@@ -16,7 +16,7 @@ EMBEDDING_DIMENSION = 1536  # text-embedding-3-small dimension (has to be adjust
 SIMILARITY_THRESHOLD = 0.3 # Define a threshold for minimum similarity
 MAX_TOKENS = 800
 TEMPERATURE = 0
-TOP_K = 5
+TOP_K = 3
 ALPHA = 0.9  # Weight for semantic vs lexical similarity in hybrid retrieval (higher value = more semantic, lower value = more lexical)
 
 # Load environment variables
