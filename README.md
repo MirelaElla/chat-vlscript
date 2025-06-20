@@ -41,7 +41,7 @@ This project is an app that allows users to chat about the contents of a knowled
 
 ## Evaluation
 To run the evaluation, enter: `streamlit run evaluation.py`. 
-The script evaluates retrieval performance (speed & accuracy) of the RAG system using a set of over 70 question-context pairs defined in `testset.xlsx`. 
+The script evaluates retrieval performance (speed & accuracy) of the RAG system using a set of over 80 question-context pairs defined in `testset.xlsx`. 
 
 The **"Run Quantitative Evaluation"** button measures:
 - Average embedding time (OpenAI embedding API)
@@ -66,11 +66,15 @@ The generated responses were manually evaluated for correctness. Most answers we
 - [x] evaluate retrieval speed
 - [x] evaluate retrieval accuracy
 - [x] evaluate answer quality
-- [ ] Implement hybrid search (semantic search + keyword search) for higher similarity scores
-- [ ] use vector DB and indexing for faster performance
+- [x] Recall@5 --> results went up to 95%!
+- [x] expect several relevant passages per question
+- [x] Experiment with hybrid search (semantic search + keyword search) --> TF-IDF --> performance went down
+- [x] Experiment with hybrid search (semantic search + keyword search) --> BM25 --> performance went down
+- [ ] Investigate why hybrid search performs worse than semantic search alone
 - [ ] try other (open source) embedding models like [snowflake-arctic-embed](https://huggingface.co/Snowflake/snowflake-arctic-embed-l-v2.0)  
 - [ ] evaluate retrieval performance with other embedding models
 - [ ] try other (open source) LLMs like [Llama 3](https://ollama.com/library/llama3), or [qwen](https://ollama.com/library/qwen3)
 - [ ] evaluate answer quality with other LLMs
+- [ ] use vector DB and indexing for faster performance
 
 

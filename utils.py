@@ -6,6 +6,10 @@ from numpy.linalg import norm
 from dotenv import load_dotenv
 from openai import OpenAI
 import streamlit as st
+from rank_bm25 import BM25Okapi
+
+#from sklearn.feature_extraction.text import TfidfVectorizer
+#from sklearn.metrics.pairwise import cosine_similarity as cosine_sim_sklearn
 
 # Definitions
 EMBEDDING_MODEL = "text-embedding-3-small"  # Default embedding model
@@ -15,6 +19,9 @@ SIMILARITY_THRESHOLD = 0.3 # Define a threshold for minimum similarity
 MAX_TOKENS = 800
 TEMPERATURE = 0
 TOP_K = 3
+ALPHA = 1  # Hybrid search parameter: Weight for semantic vs lexical similarity in hybrid retrieval (higher value = more semantic, lower value = more lexical)
+K1 = 1.5  # BM25 parameter default = 1.5: Term frequency saturation (Higher values mean more weight for repeated terms in a doc)
+B = 0.75  # BM25 parameter default = 0.75: Length   normalization (Higher = more penalty for long docs)
 
 # Load environment variables
 load_dotenv()
@@ -27,6 +34,17 @@ df = pd.read_csv('embeddings.csv')
 
 # Convert string back to numpy arrays in the 'embedding' column
 df['embedding'] = df['embedding'].apply(ast.literal_eval).apply(np.array)
+
+## Fit TF-IDF vectorizer on your document corpus
+#df["content"] = df["content"].astype(str).str.strip()
+#tfidf_vectorizer = TfidfVectorizer()
+#tfidf_matrix = tfidf_vectorizer.fit_transform(df["content"])
+
+# Tokenize content for BM25
+df["content"] = df["content"].astype(str).str.strip()
+tokenized_corpus = [doc.lower().split() for doc in df["content"]]
+bm25 = BM25Okapi(tokenized_corpus, k1=K1, b=B)
+
 
 # Embedding function
 def get_embedding(text, model=EMBEDDING_MODEL):
@@ -43,7 +61,7 @@ def get_embedding(text, model=EMBEDDING_MODEL):
         return np.zeros(EMBEDDING_DIMENSION)
 
 # Cosine similarity function
-def cosine_similarity(a, b):
+def cosine_similarity_dense(a, b):
     """Calculate cosine similarity between two vectors."""
     norm_a = norm(a)
     norm_b = norm(b)
@@ -51,11 +69,33 @@ def cosine_similarity(a, b):
         return 0
     return np.dot(a, b) / (norm_a * norm_b)
 
-# Retrieval function
-def retrieve_top_k(user_embedding):
+# Hybrid Retrieval function
+def retrieve_top_k(user_embedding, user_query, alpha=ALPHA):
+    if not 0 <= alpha <= 1:
+        raise ValueError(f"Alpha must be between 0 and 1, got {alpha}")
     user_embedding_np = np.array(user_embedding)
-    similarities = df['embedding'].apply(lambda x: cosine_similarity(x, user_embedding_np))
-    top_indices = similarities.nlargest(TOP_K).index
+
+    # Semantic similarity (existing cosine sim)
+    semantic_similarities = df['embedding'].apply(lambda x: cosine_similarity_dense(x, user_embedding_np)).values
+
+    ## Lexical similarity (TF-IDF)
+    #user_tfidf = tfidf_vectorizer.transform([user_query])
+    #lexical_similarities = cosine_sim_sklearn(user_tfidf, tfidf_matrix).flatten()
+
+    # Lexical similarity (BM25)
+    user_tokens = user_query.lower().split()
+    # Normalize BM25 to 0–1 range
+    bm25_scores = np.array(bm25.get_scores(user_tokens))
+    if bm25_scores.max() == bm25_scores.min():
+        bm25_norm = np.zeros_like(bm25_scores)
+    else:
+        bm25_norm = (bm25_scores - bm25_scores.min()) / (bm25_scores.max() - bm25_scores.min() + 1e-8)
+
+    # Combine scores
+    final_scores = alpha * semantic_similarities + (1 - alpha) * bm25_norm
+
+    # Top-K indices by hybrid score
+    top_indices = np.argsort(final_scores)[-TOP_K:][::-1]
 
     context = ""
     references = []
@@ -64,7 +104,7 @@ def retrieve_top_k(user_embedding):
         content = row['content']
         section_title = row['callout_title'] if pd.notna(row['callout_title']) and row['callout_title'].strip() else row['section_title']
         weblink = row.get("weblink", "")
-        similarity = similarities.iloc[index]
+        similarity = final_scores[index]
 
         context += content + "\n\n"
         references.append({
@@ -73,7 +113,7 @@ def retrieve_top_k(user_embedding):
             "weblink": weblink,
             "similarity": similarity
         })
-    
+
     return context, references
 
 # Answer generation function
@@ -102,9 +142,9 @@ def generate_answer(context, user_query):
         return f"An error occurred while generating the response: {e}"
 
 # Combined for app usage
-def get_response(user_query):
+def get_response(user_query, alpha=ALPHA):
     user_embedding = get_embedding(user_query)
-    context, references = retrieve_top_k(user_embedding)
+    context, references = retrieve_top_k(user_embedding, user_query, alpha)
 
     # Check if top match is above threshold
     if not references or references[0]['similarity'] < SIMILARITY_THRESHOLD:
