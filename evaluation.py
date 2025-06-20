@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import time
 import datetime
-from utils import get_embedding, retrieve_top_k, generate_answer, TOP_K
+from utils import get_embedding, retrieve_top_k, generate_answer, TOP_K, ALPHA, K1, B
 import re
 
 def parse_expected_files(raw):
@@ -70,6 +70,11 @@ if st.button("▶️ Run Quantitative Evaluation"):
 
     # Results
     st.success("✅ Evaluation complete.")
+    st.markdown(f"**⚙️ Retrieval Parameters:**  \n"
+            f"- `ALPHA`: {ALPHA} (semantic vs. lexical weight)  \n"
+            f"- `K1`: {K1} (BM25 term saturation)  \n"
+            f"- `B`: {B} (BM25 length normalization)")
+
     st.markdown("### 📈 Metrics Summary")
 
     col1, col2 = st.columns(2)

@@ -67,13 +67,14 @@ The generated responses were manually evaluated for correctness. Most answers we
 - [x] evaluate retrieval accuracy
 - [x] evaluate answer quality
 - [x] Recall@5 --> results went up to 95%!
-- [x] expect several relevantes passages per question
+- [x] expect several relevant passages per question
 - [x] Experiment with hybrid search (semantic search + keyword search) --> TF-IDF --> performance went down
-- [ ] Experiment with hybrid search (semantic search + keyword search) --> BM25
-- [ ] use vector DB and indexing for faster performance
+- [x] Experiment with hybrid search (semantic search + keyword search) --> BM25 --> performance went down
+- [ ] Investigate why hybrid search performs worse than semantic search alone
 - [ ] try other (open source) embedding models like [snowflake-arctic-embed](https://huggingface.co/Snowflake/snowflake-arctic-embed-l-v2.0)  
 - [ ] evaluate retrieval performance with other embedding models
 - [ ] try other (open source) LLMs like [Llama 3](https://ollama.com/library/llama3), or [qwen](https://ollama.com/library/qwen3)
 - [ ] evaluate answer quality with other LLMs
+- [ ] use vector DB and indexing for faster performance
 
 
