@@ -71,6 +71,8 @@ def cosine_similarity_dense(a, b):
 
 # Hybrid Retrieval function
 def retrieve_top_k(user_embedding, user_query, alpha=ALPHA):
+    if not 0 <= alpha <= 1:
+        raise ValueError(f"Alpha must be between 0 and 1, got {alpha}")
     user_embedding_np = np.array(user_embedding)
 
     # Semantic similarity (existing cosine sim)

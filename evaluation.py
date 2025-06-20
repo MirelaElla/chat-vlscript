@@ -28,6 +28,9 @@ if st.button("▶️ Run Quantitative Evaluation"):
     answer_times = []
     recall_at_k = []
     reciprocal_ranks = []
+    all_contexts = []  # Store context for each question
+    all_references = []  # Store references for each question
+    all_retrieved_files = []  # Store retrieved files for each question
 
     for i, row in testset.iterrows():
         question = row["question"]
@@ -46,8 +49,13 @@ if st.button("▶️ Run Quantitative Evaluation"):
         retrieval_duration = time.time() - start
         retrieval_times.append(retrieval_duration)
 
-        # Evaluate recall@K
+        # Store retrieval results
+        all_contexts.append(context)
+        all_references.append(references)
         retrieved_files = [ref["filename"] for ref in references]
+        all_retrieved_files.append(retrieved_files)
+
+        # Evaluate recall@K
         hit = any(f in retrieved_files for f in expected_file)
         recall_at_k.append(1 if hit else 0)
 
@@ -98,10 +106,10 @@ if st.button("▶️ Run Quantitative Evaluation"):
         question = row["question"]
         expected_file_list = parse_expected_files(row["file"])
 
-        query_embedding = get_embedding(question)
-        context, references = retrieve_top_k(query_embedding, question)
-
-        top_k_files = [ref["filename"] for ref in references]
+        # Use stored retrieval results instead of recomputing
+        context = all_contexts[i]
+        references = all_references[i]
+        top_k_files = all_retrieved_files[i]
         top_k_scores = [f"{ref['similarity']:.2f}" for ref in references]
 
         if not any(f in top_k_files for f in expected_file_list):

@@ -36,7 +36,7 @@ if user_query:
         for ref in references:
             score = ref.get("similarity", 0)
 
-            if score >= 0.7:
+            if score >= 0.6:
                 icon = "✅"
             elif score >= 0.4:
                 icon = "ℹ️"
