@@ -42,7 +42,7 @@ openpyxl==3.1.5
 packaging==24.2
 pandas==2.3.0
 parso==0.8.4
-pillow==11.2.1
+pillow==11.3.0
 platformdirs==4.3.8
 prompt_toolkit==3.0.51
 protobuf==6.31.1
@@ -56,7 +56,6 @@ Pygments==2.19.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.0
 pytz==2025.2
-#pywin32==310
 pyzmq==26.4.0
 rank-bm25==0.2.2
 referencing==0.36.2
