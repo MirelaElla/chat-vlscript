@@ -13,12 +13,12 @@ basierend auf dem offiziellen [Lehrbuch](https://wissarbkom.bitbucket.io/) der F
 """)
 
 # Usage instructions
-st.markdown("#### 🔍 So funktioniert es:")
-st.markdown("""
-Gib eine konkrete Frage zum wissenschaftlichen Arbeiten in das Textfeld ein – z. B. zur Literaturrecherche, Zitierweise oder zur Gliederung wissenschaftlicher Arbeiten.  
-Das System durchsucht das Lehrbuch und liefert dir eine präzise Antwort samt Quellenangabe.  
-Wenn die Frage nicht im Buch behandelt wird, erhältst du eine entsprechende Rückmeldung.
-""")
+with st.expander("#### 🔍 So funktioniert es:"):
+    st.markdown("""
+    Gib eine konkrete Frage zum wissenschaftlichen Arbeiten in das Textfeld ein – z. B. zur Literaturrecherche, Zitierweise oder zur Gliederung wissenschaftlicher Arbeiten.  
+    Das System durchsucht das Lehrbuch und liefert dir eine präzise Antwort samt Quellenangabe.  
+    Wenn die Frage nicht im Buch behandelt wird, erhältst du eine entsprechende Rückmeldung.
+    """)
 
 # User input for the query
 user_query = st.text_input(
